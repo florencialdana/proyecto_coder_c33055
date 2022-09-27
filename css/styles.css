@@ -165,9 +165,6 @@ main {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr; */
 }
 
 .cont-new-in-index a {
@@ -344,7 +341,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    margin: 20px
+    margin: 20px;
 }
 
 .new-in-principal a {
@@ -1112,7 +1109,7 @@ a:hover {
 
     .new-in-principal {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1f 1fr 1fr;
+        grid-template-rows: repeat(6, 1fr);
         margin: 0;
     }
 
@@ -1326,7 +1323,7 @@ a:hover {
 
     .new-in-principal {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1f 1fr 1fr;
+        grid-template-rows: repeat(6, 1fr);
         margin: 0;
     }
 
@@ -1542,7 +1539,7 @@ a:hover {
 
     .new-in-principal {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1f 1fr 1fr;
+        grid-template-rows: repeat(6, 1fr);
         margin: 0;
     }
 
