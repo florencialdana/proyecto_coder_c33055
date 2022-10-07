@@ -187,7 +187,22 @@ main {
     margin: 15px;
 }
 
+.productos-new-in-page {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 15px;
+}
+
 .productos-new-in p {
+    text-align: left;
+    color: #c09c50;
+    width: 100%;
+    font-weight: 600;
+}
+
+.productos-new-in-page p {
     text-align: left;
     color: #c09c50;
     width: 100%;
@@ -490,6 +505,15 @@ main {
 
 /* pagina cuidados */
 
+.video-youtube {
+    width: 100%;
+    height: 400px;
+}
+
+.video-cuidados {
+    width: 100%;
+}
+
 .grid-main-cuidados {
     display: grid;
     grid-template-areas: "nav content content";
@@ -516,11 +540,6 @@ main {
     width: 80%;
     margin-bottom: 5px;
     color: #c09c50;
-}
-
-.video-cuidados {
-    text-align: center;
-    padding: 40px;
 }
 
 #nav-area {
@@ -1251,221 +1270,31 @@ a:hover {
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1100px) {
 
-    /* MAIN */
-
-    /* main - pagina index */
-
-    .card-new-in-index-1 {
-        height: 500px;
-        width: 500px;
+    .navbar-nav {
+        align-items:flex-start;
     }
 
-    .card-new-in-index-2 {
-        height: 500px;
-        width: 500px;
+    #active {
+        border-bottom: none;
     }
 
-    .card-new-in-index-3 {
-        height: 500px;
-        width: 500px;
+    /* HEADER */
+
+    .logo {
+        height: 51px;
     }
 
-    .card-new-in-index-4 {
-        height: 500px;
-        width: 500px;
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+        font-size: 16px;
     }
 
-    .card-new-in-index-5 {
-        height: 500px;
-        width: 500px;
+    #mediaquery-size {
+        width: 40px;
     }
-
-    .card-new-in-index-6 {
-        height: 500px;
-        width: 500px;
-    }
-
-    .cont-categorias-main {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-
-    /* main - pagina index - animaciones */
-
-    .button-card:hover {
-        transform: none;
-        transition: none;
-    }
-
-    .card-new-in-index-1:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
-        transition: none;
-    }
-
-    .card-new-in-index-2:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
-        transition: none;
-    }
-
-    .card-new-in-index-3:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
-        transition: none;
-    }
-
-    .card-new-in-index-4:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
-        transition: none;
-    }
-
-    .card-new-in-index-5:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
-        transition: none;
-    }
-
-    .card-new-in-index-6:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
-        transition: none;
-    }
-
-    /* main - pagina new in */
-
-    .new-in-principal {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(6, 1fr);
-        margin: 0;
-    }
-
-    /* main - pagina new in - animaciones*/
-
-    .card-new-in-principal-1:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
-        transition: none;
-    }
-
-    .card-new-in-principal-2:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
-        transition: none;
-    }
-
-    .card-new-in-principal-3:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
-        transition: none;
-    }
-
-    .card-new-in-principal-4:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
-        transition: none;
-    }
-
-    .card-new-in-principal-5:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
-        transition: none;
-    }
-
-    .card-new-in-principal-6:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
-        transition: none;
-    }
-
-    .card-new-in-principal-7:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_7.webp);
-        transition: none;
-    }
-
-    .card-new-in-principal-8:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_8.webp);
-        transition: none;
-    }
-
-    .card-new-in-principal-9:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_9.webp);
-        transition: none;
-    }
-
-    .card-new-in-principal-10:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_10.webp);
-        transition: none;
-    }
-
-    .card-new-in-principal-11:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_11.webp);
-        transition: none;
-    }
-
-    .card-new-in-principal-12:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_12.webp);
-        transition: none;
-    }
-
-    /* main - pagina pick-up points */
-
-    .contenedor-mapas {
-        flex-direction: column;
-    }
-
-    .mapas-iframe {
-        width: 80%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .descripcion-mapas {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 20px;
-    }
-
-    /* main - pagina contact us */
-
-    .contact-form-wrapper {
-        padding: 0;
-        margin: 15px;
-    }
-
-    /* FOOTER */
-
-    footer {
-        flex-direction: column;
-    }
-
-    .display-footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    .display-footer-starter {
-        width: 100%;
-    }
-
-    #email_newsletter {
-        width: 400px;
-    }
-
-    .submit-button {
-        width: 400px;
-    }
-
-    /* footer - animaciones */
-
-    .animacion-social:hover {
-        transform: none;
-        transition: none;
-    }
-
-    .animacion-menu-footer:hover {
-        transform: none;
-        transition: none;
-    }
-}
-
-@media screen and (max-width:320px) {
 
     /* MAIN */
 
@@ -1479,33 +1308,50 @@ a:hover {
     }
 
     .card-new-in-index-1 {
-        height: 500px;
-        width: 500px;
+        height: 480px;
+        width: 480px;
     }
 
     .card-new-in-index-2 {
-        height: 500px;
-        width: 500px;
+        height: 480px;
+        width: 480px;
     }
 
     .card-new-in-index-3 {
-        height: 500px;
-        width: 500px;
+        height: 480px;
+        width: 480px;
     }
 
     .card-new-in-index-4 {
-        height: 500px;
-        width: 500px;
+        height: 480px;
+        width: 480px;
     }
 
     .card-new-in-index-5 {
-        height: 500px;
-        width: 500px;
+        height: 480px;
+        width: 480px;
     }
 
     .card-new-in-index-6 {
-        height: 500px;
-        width: 500px;
+        height: 480px;
+        width: 480px;
+    }
+
+    .productos-new-in p {
+        font-size: 25px;
+    }
+
+    .img-categorias {
+        width: 480px;
+        height: 620px;
+    }
+
+    .button-card h4{
+        font-size: 40px;
+    }
+
+    .button-card p{
+        font-size: 20px;
     }
 
     /* main - pagina index - animaciones */
@@ -1546,6 +1392,74 @@ a:hover {
     }
 
     /* main - pagina new in */
+
+    .card-new-in-principal-1 {
+        height: 460px;
+        width: 460px;
+    }
+
+    .card-new-in-principal-2 {
+        height: 460px;
+        width: 460px;
+    }
+
+    .card-new-in-principal-3 {
+        height: 460px;
+        width: 460px;
+    }
+
+    .card-new-in-principal-4 {
+        height: 460px;
+        width: 460px;
+    }
+
+    .card-new-in-principal-5 {
+        height: 460px;
+        width: 460px;
+    }
+
+    .card-new-in-principal-6 {
+        height: 460px;
+        width: 460px;
+    }
+
+    .card-new-in-principal-7 {
+        height: 460px;
+        width: 460px;
+    }
+
+    .card-new-in-principal-8 {
+        height: 460px;
+        width: 460px;
+    }
+
+    .card-new-in-principal-9 {
+        height: 460px;
+        width: 460px;
+    }
+
+    .card-new-in-principal-10 {
+        height: 460px;
+        width: 460px;
+    }
+
+    .card-new-in-principal-11 {
+        height: 460px;
+        width: 460px;
+    }
+
+    .card-new-in-principal-12 {
+        height: 460px;
+        width: 460px;
+    }
+
+    .productos-new-in-page  {
+        margin: 26px;
+    }
+
+    .productos-new-in-page p {
+        font-size: 22px;
+    }
 
     .new-in-principal {
         grid-template-columns: 1fr 1fr;
@@ -1615,6 +1529,48 @@ a:hover {
         transition: none;
     }
 
+    /* main - pagina cuidados */
+
+    .accordion {
+        margin-top: 0;
+        justify-content: none;
+        height: 100%;
+        width: 500px;
+    }
+
+    .accordion-button {
+        font-size: 18px;
+    }
+
+.titulos {
+    font-size: 50px;
+}
+
+    .parrafo-cuidados p {
+        font-size: 18px;
+    }
+
+.grid-main-cuidados {
+    grid-template-areas: "nav"
+                        "content";
+}
+
+iframe {
+    width: 700px;
+    height: 500px;
+}
+.video-cuidados {
+    padding: 0;
+}
+
+.video-youtube {
+    height: 380px;
+}
+
+#nav-area {
+    width: 100%;
+}
+
     /* main - pagina pick-up points */
 
     .contenedor-mapas {
@@ -1622,7 +1578,7 @@ a:hover {
     }
 
     .mapas-iframe {
-        width: 80%;
+        width: 500px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1633,6 +1589,11 @@ a:hover {
         flex-direction: column;
         align-items: center;
         margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .parrafo-centrado-principal p {
+        font-size: 18px;
     }
 
     /* main - pagina contact us */
@@ -1642,7 +1603,18 @@ a:hover {
         margin: 15px;
     }
 
+    .contenedor-contacto {
+        padding-top: 20px;
+    }
+
     /* FOOTER */
+
+    .contenedor-footer-menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 
     footer {
         flex-direction: column;
@@ -1661,11 +1633,32 @@ a:hover {
     }
 
     #email_newsletter {
-        width: 400px;
+        width: 500px;
     }
 
     .submit-button {
-        width: 400px;
+        width: 500px;
+    }
+
+    .size-iconos-button {
+        width: 60px;
+    }
+
+    .display-footer-starter p {
+        font-size: 22px;
+    }
+
+    .display-footer-social h3 {
+        font-size: 28px;
+    }
+
+    .display-footer h3 {
+        font-size: 28px;
+    }
+
+    footer ul li a {
+        font-weight: 300;
+        font-size: 22px;
     }
 
     /* footer - animaciones */
@@ -1681,27 +1674,2196 @@ a:hover {
     }
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:1000px) {
+
     .navbar-nav {
+        align-items:flex-start;
+    }
+
+    #active {
+        border-bottom: none;
+    }
+
+    /* MAIN */
+
+    /* main - pagina index */
+
+    .cont-categorias-main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-left: none;
+        margin-right: none;
+    }
+
+    .card-new-in-index-1 {
+        height: 400px;
+        width: 400px;
+    }
+
+    .card-new-in-index-2 {
+        height: 400px;
+        width: 400px;
+    }
+
+    .card-new-in-index-3 {
+        height: 400px;
+        width: 400px;
+    }
+
+    .card-new-in-index-4 {
+       height: 400px;
+        width: 400px;
+    }
+
+    .card-new-in-index-5 {
+       height: 400px;
+        width: 400px;
+    }
+
+    .card-new-in-index-6 {
+         height: 400px;
+        width: 400px;
+    }
+
+    .productos-new-in p {
+        font-size: 25px;
+    }
+
+    .img-categorias {
+        width: 400px;
+        height: 550px;
+    }
+
+    .button-card h4{
+        font-size: 40px;
+    }
+
+    .button-card p{
+        font-size: 20px;
+    }
+
+    /* main - pagina index - animaciones */
+
+    .button-card:hover {
+        transform: none;
+        transition: none;
+    }
+
+    .card-new-in-index-1:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-2:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-3:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-4:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-5:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-6:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
+        transition: none;
+    }
+
+    /* main - pagina new in */
+
+    .card-new-in-principal-1 {
+        height: 400px;
+        width: 400px;
+    }
+
+    .card-new-in-principal-2 {
+        height: 400px;
+        width: 400px;
+    }
+
+    .card-new-in-principal-3 {
+        height: 400px;
+        width: 400px;
+    }
+
+    .card-new-in-principal-4 {
+        height: 400px;
+        width: 400px;
+    }
+
+    .card-new-in-principal-5 {
+        height: 400px;
+        width: 400px;
+    }
+
+    .card-new-in-principal-6 {
+        height: 400px;
+        width: 400px;
+    }
+
+    .card-new-in-principal-7 {
+        height: 400px;
+        width: 400px;
+    }
+
+    .card-new-in-principal-8 {
+        height: 400px;
+        width: 400px;
+    }
+
+    .card-new-in-principal-9 {
+        height: 400px;
+        width: 400px;
+    }
+
+    .card-new-in-principal-10 {
+        height: 400px;
+        width: 400px;
+    }
+
+    .card-new-in-principal-11 {
+        height: 400px;
+        width: 400px;
+    }
+
+    .card-new-in-principal-12 {
+        height: 400px;
+        width: 400px;
+    }
+
+    .productos-new-in-page  {
+        margin: 27px;
+    }
+
+    .productos-new-in-page p {
+        font-size: 22px;
+    }
+
+    .new-in-principal {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        margin: 0;
+    }
+
+    /* main - pagina new in - animaciones */
+
+    .card-new-in-principal-1:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-2:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-3:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-4:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-5:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-6:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-7:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_7.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-8:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_8.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-9:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_9.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-10:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_10.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-11:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_11.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-12:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_12.webp);
+        transition: none;
+    }
+
+    /* main - pagina cuidados */
+
+    .accordion {
+        margin-top: 0;
+        justify-content: none;
+        height: 100%;
+        width: 500px;
+    }
+
+    .accordion-button {
+        font-size: 18px;
+    }
+
+.titulos {
+    font-size: 50px;
+}
+
+    .parrafo-cuidados p {
+        font-size: 18px;
+    }
+
+.grid-main-cuidados {
+    grid-template-areas: "nav"
+                        "content";
+}
+
+iframe {
+    width: 700px;
+    height: 500px;
+}
+.video-cuidados {
+    padding: 0;
+}
+
+.video-youtube {
+    height: 300px;
+}
+
+#nav-area {
+    width: 100%;
+}
+
+    /* main - pagina pick-up points */
+
+    .contenedor-mapas {
+        flex-direction: column;
+    }
+
+    .mapas-iframe {
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .descripcion-mapas {
         display: flex;
         flex-direction: column;
-        padding-left: 0;
-        margin-bottom: 0;
-        list-style: none;
-        justify-content: left;
-        align-items: flex-start;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .parrafo-centrado-principal p {
+        font-size: 18px;
+    }
+
+    /* main - pagina contact us */
+
+    .contact-form-wrapper {
+        padding: 0;
+        margin: 15px;
+    }
+
+    .contenedor-contacto {
+        padding-top: 20px;
+    }
+
+    /* FOOTER */
+
+    .contenedor-footer-menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    footer {
+        flex-direction: column;
+    }
+
+    .display-footer-starter {
         width: 100%;
     }
 
-    .display-header-right ul {
+    .display-footer {
         display: flex;
-        margin-right: 15px;
-        justify-content: left;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #email_newsletter {
+        width: 500px;
+    }
+
+    .submit-button {
+        width: 500px;
+    }
+
+    .size-iconos-button {
+        width: 60px;
+    }
+
+    .display-footer-starter p {
+        font-size: 22px;
+    }
+
+    .display-footer-social h3 {
+        font-size: 28px;
+    }
+
+    .display-footer h3 {
+        font-size: 28px;
+    }
+
+    footer ul li a {
+        font-weight: 300;
+        font-size: 22px;
+    }
+
+    /* footer - animaciones */
+
+    .animacion-social:hover {
+        transform: none;
+        transition: none;
+    }
+
+    .animacion-menu-footer:hover {
+        transform: none;
+        transition: none;
     }
 }
 
-@media screen and (max-width:1134px) {
-    .nav-link {
-        font-size: 13px;
+@media screen and (max-width:900px) {
+
+    .navbar-nav {
+        align-items:flex-start;
+    }
+
+    #active {
+        border-bottom: none;
+    }
+
+    /* MAIN */
+
+    /* main - pagina index */
+
+    .cont-categorias-main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-left: none;
+        margin-right: none;
+    }
+
+    .card-new-in-index-1 {
+        height: 350px;
+        width: 350px; height: 350px;
+        width: 350px;
+    }
+
+    .card-new-in-index-2 {
+        height: 350px;
+        width: 350px;
+    }
+
+    .card-new-in-index-3 {
+        height: 350px;
+        width: 350px;
+    }
+
+    .card-new-in-index-4 {
+        height: 350px;
+        width: 350px;
+    }
+
+    .card-new-in-index-5 {
+       height: 350px;
+        width: 350px;
+    }
+
+    .card-new-in-index-6 {
+         height: 350px;
+        width: 350px;
+    }
+
+    .productos-new-in p {
+        font-size: 22px;
+    }
+
+    .img-categorias {
+        width: 350px;
+        height: 450px;
+    }
+
+    .button-card h4{
+        font-size: 30px;
+    }
+
+    .button-card p{
+        font-size: 18px;
+    }
+
+    /* main - pagina index - animaciones */
+
+    .button-card:hover {
+        transform: none;
+        transition: none;
+    }
+
+    .card-new-in-index-1:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-2:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-3:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-4:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-5:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-6:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
+        transition: none;
+    }
+
+    /* main - pagina new in */
+
+    .card-new-in-principal-1 {
+        width: 350px;
+        height: 350px;
+    }
+
+    .card-new-in-principal-2 {
+       width: 350px;
+        height: 350px;
+    }
+
+    .card-new-in-principal-3 {
+        width: 350px;
+        height: 350px;
+    }
+
+    .card-new-in-principal-4 {
+        width: 350px;
+        height: 350px;
+    }
+
+    .card-new-in-principal-5 {
+       width: 350px;
+        height: 350px;
+    }
+
+    .card-new-in-principal-6 {
+       width: 350px;
+        height: 350px;
+    }
+
+    .card-new-in-principal-7 {
+        width: 350px;
+        height: 350px;
+    }
+
+    .card-new-in-principal-8 {
+        width: 350px;
+        height: 350px;
+    }
+
+    .card-new-in-principal-9 {
+        width: 350px;
+        height: 350px;
+    }
+
+    .card-new-in-principal-10 {
+       width: 350px;
+        height: 350px;;
+    }
+
+    .card-new-in-principal-11 {
+      width: 350px;
+        height: 350px;
+    }
+
+    .card-new-in-principal-12 {
+       width: 350px;
+        height: 350px;
+    }
+
+    .productos-new-in-page  {
+        margin: 30px;
+    }
+
+    .productos-new-in-page p {
+        font-size: 22px;
+    }
+
+    .new-in-principal {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        margin: 0;
+    }
+
+    /* main - pagina new in - animaciones */
+
+    .card-new-in-principal-1:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-2:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-3:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-4:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-5:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-6:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-7:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_7.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-8:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_8.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-9:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_9.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-10:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_10.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-11:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_11.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-12:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_12.webp);
+        transition: none;
+    }
+
+    /* main - pagina cuidados */
+
+    .accordion {
+        margin-top: 0;
+        justify-content: none;
+        height: 100%;
+        width: 500px;
+    }
+
+    .accordion-button {
+        font-size: 18px;
+    }
+
+    .titulos {
+        font-size: 35px;
+    }
+
+    .parrafo-cuidados p {
+        font-size: 18px;
+    }
+
+.grid-main-cuidados {
+    grid-template-areas: "nav"
+                        "content";
+}
+
+iframe {
+    width: 700px;
+    height: 500px;
+}
+.video-cuidados {
+    padding: 0;
+}
+
+.video-youtube {
+    height: 300px;
+}
+
+#nav-area {
+    width: 100%;
+}
+
+    /* main - pagina pick-up points */
+
+    .contenedor-mapas {
+        flex-direction: column;
+    }
+
+    .mapas-iframe {
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .descripcion-mapas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .parrafo-centrado-principal p {
+        font-size: 18px;
+    }
+
+    /* main - pagina contact us */
+
+    .contact-form-wrapper {
+        padding: 0;
+        margin: 15px;
+    }
+
+    .contenedor-contacto {
+        padding-top: 20px;
+    }
+
+    /* FOOTER */
+
+    .contenedor-footer-menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    footer {
+        flex-direction: column;
+    }
+
+    .display-footer-starter {
+        width: 100%;
+    }
+
+    .display-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #email_newsletter {
+        width: 500px;
+    }
+
+    .submit-button {
+        width: 500px;
+    }
+
+    .size-iconos-button {
+        width: 60px;
+    }
+
+    .display-footer-starter p {
+        font-size: 22px;
+    }
+
+    .display-footer-social h3 {
+        font-size: 28px;
+    }
+
+    .display-footer h3 {
+        font-size: 28px;
+    }
+
+    footer ul li a {
+        font-weight: 300;
+        font-size: 22px;
+    }
+
+    /* footer - animaciones */
+
+    .animacion-social:hover {
+        transform: none;
+        transition: none;
+    }
+
+    .animacion-menu-footer:hover {
+        transform: none;
+        transition: none;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .navbar-nav {
+        align-items:flex-start;
+    }
+
+    #active {
+        border-bottom: none;
+    }
+
+    /* MAIN */
+
+    /* main - pagina index */
+
+    .cont-categorias-main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-left: none;
+        margin-right: none;
+    }
+
+    .card-new-in-index-1 {
+        height: 350px;
+        width: 350px; height: 350px;
+        width: 350px;
+    }
+
+    .card-new-in-index-2 {
+        height: 350px;
+        width: 350px;
+    }
+
+    .card-new-in-index-3 {
+        height: 350px;
+        width: 350px;
+    }
+
+    .card-new-in-index-4 {
+        height: 350px;
+        width: 350px;
+    }
+
+    .card-new-in-index-5 {
+       height: 350px;
+        width: 350px;
+    }
+
+    .card-new-in-index-6 {
+         height: 350px;
+        width: 350px;
+    }
+
+    .productos-new-in p {
+        font-size: 22px;
+    }
+
+    .img-categorias {
+        width: 350px;
+        height: 450px;
+    }
+
+    .button-card h4{
+        font-size: 30px;
+    }
+
+    .button-card p{
+        font-size: 18px;
+    }
+
+    /* main - pagina index - animaciones */
+
+    .button-card:hover {
+        transform: none;
+        transition: none;
+    }
+
+    .card-new-in-index-1:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-2:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-3:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-4:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-5:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-6:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
+        transition: none;
+    }
+
+    /* main - pagina new in */
+
+    .card-new-in-principal-1 {
+        width: 350px;
+        height: 350px;
+    }
+
+    .card-new-in-principal-2 {
+       width: 350px;
+        height: 350px;
+    }
+
+    .card-new-in-principal-3 {
+        width: 350px;
+        height: 350px;
+    }
+
+    .card-new-in-principal-4 {
+        width: 350px;
+        height: 350px;
+    }
+
+    .card-new-in-principal-5 {
+       width: 350px;
+        height: 350px;
+    }
+
+    .card-new-in-principal-6 {
+       width: 350px;
+        height: 350px;
+    }
+
+    .card-new-in-principal-7 {
+        width: 350px;
+        height: 350px;
+    }
+
+    .card-new-in-principal-8 {
+        width: 350px;
+        height: 350px;
+    }
+
+    .card-new-in-principal-9 {
+        width: 350px;
+        height: 350px;
+    }
+
+    .card-new-in-principal-10 {
+       width: 350px;
+        height: 350px;;
+    }
+
+    .card-new-in-principal-11 {
+      width: 350px;
+        height: 350px;
+    }
+
+    .card-new-in-principal-12 {
+       width: 350px;
+        height: 350px;
+    }
+
+    .productos-new-in-page  {
+        margin: 17px;
+    }
+
+    .productos-new-in-page p {
+        font-size: 22px;
+    }
+
+    .new-in-principal {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        margin: 0;
+    }
+
+    /* main - pagina new in - animaciones */
+
+    .card-new-in-principal-1:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-2:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-3:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-4:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-5:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-6:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-7:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_7.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-8:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_8.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-9:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_9.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-10:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_10.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-11:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_11.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-12:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_12.webp);
+        transition: none;
+    }
+
+    /* main - pagina cuidados */
+
+    .accordion {
+        margin-top: 0;
+        justify-content: none;
+        height: 100%;
+        width: 500px;
+    }
+
+    .accordion-button {
+        font-size: 18px;
+    }
+
+    .titulos {
+        font-size: 35px;
+    }
+
+    .parrafo-cuidados p {
+        font-size: 18px;
+    }
+
+.grid-main-cuidados {
+    grid-template-areas: "nav"
+                        "content";
+}
+
+iframe {
+    width: 600px;
+    height: 400px;
+}
+.video-cuidados {
+    padding: 0;
+}
+
+.video-youtube {
+    height: 300px;
+}
+
+#nav-area {
+    width: 100%;
+}
+
+    /* main - pagina pick-up points */
+
+    .contenedor-mapas {
+        flex-direction: column;
+    }
+
+    .mapas-iframe {
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .descripcion-mapas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .parrafo-centrado-principal p {
+        font-size: 18px;
+    }
+
+    /* main - pagina contact us */
+
+    .contact-form-wrapper {
+        padding: 0;
+        margin: 15px;
+    }
+
+    .contenedor-contacto {
+        padding-top: 20px;
+    }
+
+    /* FOOTER */
+
+    .contenedor-footer-menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    footer {
+        flex-direction: column;
+    }
+
+    .display-footer-starter {
+        width: 100%;
+    }
+
+    .display-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #email_newsletter {
+        width: 500px;
+    }
+
+    .submit-button {
+        width: 500px;
+    }
+
+    .size-iconos-button {
+        width: 60px;
+    }
+
+    .display-footer-starter p {
+        font-size: 22px;
+    }
+
+    .display-footer-social h3 {
+        font-size: 28px;
+    }
+
+    .display-footer h3 {
+        font-size: 28px;
+    }
+
+    footer ul li a {
+        font-weight: 300;
+        font-size: 22px;
+    }
+
+    /* footer - animaciones */
+
+    .animacion-social:hover {
+        transform: none;
+        transition: none;
+    }
+
+    .animacion-menu-footer:hover {
+        transform: none;
+        transition: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .navbar-nav {
+        align-items:flex-start;
+    }
+
+    #active {
+        border-bottom: none;
+    }
+
+    /* MAIN */
+
+    /* main - pagina index */
+
+    .cont-categorias-main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-left: none;
+        margin-right: none;
+    }
+
+    .card-new-in-index-1 {
+        height: 230px;
+        width: 230px;
+    }
+
+    .card-new-in-index-2 {
+        height: 230px;
+        width: 230px;
+    }
+
+    .card-new-in-index-3 {
+        height: 230px;
+        width: 230px;
+    }
+
+    .card-new-in-index-4 {
+        height: 230px;
+        width: 230px;
+    }
+
+    .card-new-in-index-5 {
+        height: 230px;
+        width: 230px;
+    }
+
+    .card-new-in-index-6 {
+        height: 230px;
+        width: 230px;
+    }
+
+    .img-categorias {
+        width: 230px;
+        height: 285px;
+    }
+
+    .button-card h4{
+        font-size: 22px;
+    }
+
+    .button-card p{
+        font-size: 14px;
+    }
+
+    .productos-new-in p {
+        font-size: 16px;
+    }
+
+    /* main - pagina index - animaciones */
+
+    .button-card:hover {
+        transform: none;
+        transition: none;
+    }
+
+    .card-new-in-index-1:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-2:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-3:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-4:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-5:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-6:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
+        transition: none;
+    }
+
+    /* main - pagina new in */
+
+    .card-new-in-principal-1 {
+        width: 230px;
+        height: 230px;
+    }
+
+    .card-new-in-principal-2 {
+        width: 230px;
+        height: 230px;
+    }
+
+    .card-new-in-principal-3 {
+        width: 230px;
+        height: 230px;;
+    }
+
+    .card-new-in-principal-4 {
+        width: 230px;
+        height: 230px;
+    }
+
+    .card-new-in-principal-5 {
+       width: 230px;
+        height: 230px;
+    }
+
+    .card-new-in-principal-6 {
+       width: 230px;
+        height: 230px;
+    }
+
+    .card-new-in-principal-7 {
+        width: 230px;
+        height: 230px;
+    }
+
+    .card-new-in-principal-8 {
+        width: 230px;
+        height: 230px;
+    }
+
+    .card-new-in-principal-9 {
+        width: 230px;
+        height: 230px;
+    }
+
+    .card-new-in-principal-10 {
+       width: 230px;
+        height: 230px;
+    }
+
+    .card-new-in-principal-11 {
+        width: 230px;
+        height: 230px;
+    }
+
+    .card-new-in-principal-12 {
+        width: 230px;
+        height: 230px;
+    }
+
+    .productos-new-in-page  {
+        margin: 19px;
+    }
+
+    .productos-new-in-page p {
+        font-size: 18px;
+    }
+
+    .new-in-principal {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        margin: 0;
+    }
+
+    /* main - pagina new in - animaciones */
+
+    .card-new-in-principal-1:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-2:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-3:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-4:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-5:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-6:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-7:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_7.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-8:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_8.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-9:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_9.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-10:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_10.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-11:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_11.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-12:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_12.webp);
+        transition: none;
+    }
+
+    /* main - pagina cuidados */
+
+.grid-main-cuidados {
+    grid-template-areas: "nav"
+                        "content";
+}
+
+iframe {
+    width: 350px;
+    height: 250px;
+}
+.video-cuidados {
+    padding: 0;
+}
+
+.video-youtube {
+    height: 180px;
+}
+
+#nav-area {
+    width: 100%;
+}
+
+    /* main - pagina pick-up points */
+
+    .contenedor-mapas {
+        flex-direction: column;
+    }
+
+    .mapas-iframe {
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .descripcion-mapas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .titulos {
+        font-size: 30px;
+    }
+
+    /* main - pagina contact us */
+
+    .contact-form-wrapper {
+        padding: 0;
+        margin: 15px;
+    }
+
+    .contenedor-contacto {
+        padding-top: 20px;
+    }
+
+    /* FOOTER */
+
+    .contenedor-footer-menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    footer {
+        flex-direction: column;
+    }
+
+    .display-footer-starter {
+        width: 100%;
+    }
+
+    .display-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #email_newsletter {
+        width: 300px;
+    }
+
+    .submit-button {
+        width: 300px;
+    }
+
+    /* footer - animaciones */
+
+    .animacion-social:hover {
+        transform: none;
+        transition: none;
+    }
+
+    .animacion-menu-footer:hover {
+        transform: none;
+        transition: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .navbar-nav {
+        align-items:flex-start;
+    }
+
+    #active {
+        border-bottom: none;
+    }
+
+    /* MAIN */
+
+    /* main - pagina index */
+
+    .cont-categorias-main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-left: none;
+        margin-right: none;
+    }
+
+    .card-new-in-index-1 {
+        height: 170px;
+        width: 170px;
+    }
+
+    .card-new-in-index-2 {
+        height: 170px;
+        width: 170px;
+    }
+
+    .card-new-in-index-3 {
+        height: 170px;
+        width: 170px;
+    }
+
+    .card-new-in-index-4 {
+        height: 170px;
+        width: 170px;
+    }
+
+    .card-new-in-index-5 {
+        height: 170px;
+        width: 170px;
+    }
+
+    .card-new-in-index-6 {
+        height: 170px;
+        width: 170px;
+    }
+
+    .img-categorias {
+        width: 170px;
+        height: 245px;
+    }
+
+    .button-card h4{
+        font-size: 18px;
+    }
+
+    .button-card p{
+        font-size: 14px;
+    }
+
+    /* main - pagina index - animaciones */
+
+    .button-card:hover {
+        transform: none;
+        transition: none;
+    }
+
+    .card-new-in-index-1:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-2:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-3:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-4:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-5:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-6:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
+        transition: none;
+    }
+
+    /* main - pagina new in */
+
+    .card-new-in-principal-1 {
+        width: 170px;
+        height: 170px;
+    }
+
+    .card-new-in-principal-2 {
+        width: 170px;
+        height: 170px;
+    }
+
+    .card-new-in-principal-3 {
+        width: 170px;
+        height: 170px;
+    }
+
+    .card-new-in-principal-4 {
+        width: 170px;
+        height: 170px;
+    }
+
+    .card-new-in-principal-5 {
+        width: 170px;
+        height: 170px;
+    }
+
+    .card-new-in-principal-6 {
+        width: 170px;
+        height: 170px;
+    }
+
+    .card-new-in-principal-7 {
+        width: 170px;
+        height: 170px;
+    }
+
+    .card-new-in-principal-8 {
+        width: 170px;
+        height: 170px;
+    }
+
+    .card-new-in-principal-9 {
+        width: 170px;
+        height: 170px;
+    }
+
+    .card-new-in-principal-10 {
+        width: 170px;
+        height: 170px;
+    }
+
+    .card-new-in-principal-11 {
+        width: 170px;
+        height: 170px;
+    }
+
+    .card-new-in-principal-12 {
+        width: 170px;
+        height: 170px;
+    }
+
+    .productos-new-in-page  {
+        margin: 19px;
+    }
+
+    .productos-new-in p {
+        font-size: 14px;
+    }
+
+    .productos-new-in-page p {
+        font-size: 14px;
+    }
+
+    .new-in-principal {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        margin: 0;
+    }
+
+    /* main - pagina new in - animaciones */
+
+    .card-new-in-principal-1:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-2:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-3:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-4:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-5:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-6:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-7:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_7.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-8:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_8.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-9:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_9.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-10:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_10.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-11:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_11.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-12:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_12.webp);
+        transition: none;
+    }
+
+    /* main - pagina cuidados */
+
+.grid-main-cuidados {
+    grid-template-areas: "nav"
+                        "content";
+}
+
+iframe {
+    width: 350px;
+    height: 250px;
+}
+.video-cuidados {
+    padding: 0;
+}
+
+.video-youtube {
+    height: 180px;
+}
+
+#nav-area {
+    width: 100%;
+}
+
+    /* main - pagina pick-up points */
+
+    .contenedor-mapas {
+        flex-direction: column;
+    }
+
+    .mapas-iframe {
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .descripcion-mapas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .titulos {
+        font-size: 30px;
+    }
+
+    /* main - pagina contact us */
+
+    .contact-form-wrapper {
+        padding: 0;
+        margin: 15px;
+    }
+
+    .contenedor-contacto {
+        padding-top: 20px;
+    }
+
+    /* FOOTER */
+
+    .contenedor-footer-menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    footer {
+        flex-direction: column;
+    }
+
+    .display-footer-starter {
+        width: 100%;
+    }
+
+    .display-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #email_newsletter {
+        width: 300px;
+    }
+
+    .submit-button {
+        width: 300px;
+    }
+
+    /* footer - animaciones */
+
+    .animacion-social:hover {
+        transform: none;
+        transition: none;
+    }
+
+    .animacion-menu-footer:hover {
+        transform: none;
+        transition: none;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+    /* MAIN */
+
+    .navbar-nav {
+        align-items: flex-start;
+    }
+
+    #active {
+        border-bottom: none;
+    }
+
+    /* main - pagina index */
+
+    .cont-categorias-main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-left: none;
+        margin-right: none;
+    }
+
+    .card-new-in-index-1 {
+        height: 150px;
+        width: 150px;
+    }
+
+    .card-new-in-index-2 {
+        height: 150px;
+        width: 150px;
+    }
+
+    .card-new-in-index-3 {
+        height: 150px;
+        width: 150px;
+    }
+
+    .card-new-in-index-4 {
+        height: 150px;
+        width: 150px;
+    }
+
+    .card-new-in-index-5 {
+        height: 150px;
+        width: 150px;
+    }
+
+    .card-new-in-index-6 {
+        height: 150px;
+        width: 150px;
+    }
+
+    .img-categorias {
+        width: 150px;
+        height: 225px;
+    }
+
+    .button-card h4{
+        font-size: 18px;
+    }
+
+    .button-card p{
+        font-size: 14px;
+    }
+
+    /* main - pagina index - animaciones */
+
+    .button-card:hover {
+        transform: none;
+        transition: none;
+    }
+
+    .card-new-in-index-1:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-2:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-3:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-4:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-5:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
+        transition: none;
+    }
+
+    .card-new-in-index-6:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
+        transition: none;
+    }
+
+    /* main - pagina new in */
+
+    .card-new-in-principal-1 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card-new-in-principal-2 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card-new-in-principal-3 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card-new-in-principal-4 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card-new-in-principal-5 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card-new-in-principal-6 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card-new-in-principal-7 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card-new-in-principal-8 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card-new-in-principal-9 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card-new-in-principal-10 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card-new-in-principal-11 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card-new-in-principal-12 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .productos-new-in p {
+        font-size: 14px;
+    }
+
+    .new-in-principal {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        margin: 0;
+    }
+
+    /* main - pagina new in - animaciones */
+
+    .card-new-in-principal-1:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-2:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-3:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-4:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-5:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-6:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-7:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_7.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-8:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_8.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-9:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_9.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-10:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_10.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-11:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_11.webp);
+        transition: none;
+    }
+
+    .card-new-in-principal-12:hover {
+        background-image: url(../assets/images/imagenes_new_in/foto_12.webp);
+        transition: none;
+    }
+
+    /* main - pagina cuidados */
+
+.grid-main-cuidados {
+    grid-template-areas: "nav"
+                        "content";
+}
+
+iframe {
+    width: 350px;
+    height: 250px;
+}
+.video-cuidados {
+    padding: 0;
+}
+
+.video-youtube {
+    height: 180px;
+}
+
+#nav-area {
+    width: 100%;
+}
+
+    /* main - pagina pick-up points */
+
+    .contenedor-mapas {
+        flex-direction: column;
+    }
+
+    .mapas-iframe {
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .descripcion-mapas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    /* main - pagina contact us */
+
+    .contact-form-wrapper {
+        padding: 0;
+        margin: 15px;
+    }
+
+    /* FOOTER */
+
+    .contenedor-footer-menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    footer {
+        flex-direction: column;
+    }
+
+    .display-footer-starter {
+        width: 100%;
+    }
+
+    .display-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #email_newsletter {
+        width: 300px;
+    }
+
+    .submit-button {
+        width: 300px;
+    }
+
+    /* footer - animaciones */
+
+    .animacion-social:hover {
+        transform: none;
+        transition: none;
+    }
+
+    .animacion-menu-footer:hover {
+        transform: none;
+        transition: none;
     }
 }
