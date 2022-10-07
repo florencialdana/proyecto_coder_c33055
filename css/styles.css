@@ -135,6 +135,14 @@ main {
     height: 20%;
 }
 
+.carousel-control-prev-icon {
+    background-image: url(../assets/images/imagenes_banner/button_banner/button_back.png);
+}
+
+.carousel-control-next-icon {
+    background-image: url(../assets/images/imagenes_banner/button_banner/button_next.png);
+}
+
 .titulos {
     text-align: center;
     font-size: 35px;
@@ -191,7 +199,7 @@ main {
     height: 233px;
     margin-bottom: 10px;
     border-radius: 15px;
-    background-image: url(../assets/images/imagenes_new_in/foto_1.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
     background-position: center;
     background-size: cover;
     transition: all .5s ease;
@@ -202,7 +210,7 @@ main {
     height: 233px;
     margin-bottom: 10px;
     border-radius: 15px;
-    background-image: url(../assets/images/imagenes_new_in/foto_2.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
     background-position: center;
     background-size: cover;
     transition: all .5s ease;
@@ -213,7 +221,7 @@ main {
     height: 233px;
     margin-bottom: 10px;
     border-radius: 15px;
-    background-image: url(../assets/images/imagenes_new_in/foto_3.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
     background-position: center;
     background-size: cover;
     transition: all .5s ease;
@@ -224,7 +232,7 @@ main {
     height: 233px;
     margin-bottom: 10px;
     border-radius: 15px;
-    background-image: url(../assets/images/imagenes_new_in/foto_4.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
     background-position: center;
     background-size: cover;
     transition: all .5s ease;
@@ -235,7 +243,7 @@ main {
     height: 233px;
     margin-bottom: 10px;
     border-radius: 15px;
-    background-image: url(../assets/images/imagenes_new_in/foto_5.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
     background-position: center;
     background-size: cover;
     transition: all .5s ease;
@@ -246,7 +254,7 @@ main {
     height: 233px;
     margin-bottom: 10px;
     border-radius: 15px;
-    background-image: url(../assets/images/imagenes_new_in/foto_6.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
     background-position: center;
     background-size: cover;
     transition: all .5s ease;
@@ -272,27 +280,27 @@ main {
 }
 
 #img-1 {
-    background-image: url(../assets/images/imagenes_productos_main_index/foto1_aros.jpg);
+    background-image: url(../assets/images/imagenes_productos_main_index/foto1_aros.webp);
 }
 
 #img-2 {
-    background-image: url(../assets/images/imagenes_productos_main_index/foto2_anklets.JPG);
+    background-image: url(../assets/images/imagenes_productos_main_index/foto2_tobilleras.webp);
 }
 
 #img-3 {
-    background-image: url(../assets/images/imagenes_productos_main_index/foto3_anillos.JPG);
+    background-image: url(../assets/images/imagenes_productos_main_index/foto3_anillos.webp);
 }
 
 #img-4 {
-    background-image: url(../assets/images/imagenes_productos_main_index/foto4_pulseras.jpg);
+    background-image: url(../assets/images/imagenes_productos_main_index/foto4_pulseras.webp);
 }
 
 #img-5 {
-    background-image: url(../assets/images/imagenes_productos_main_index/foto5_collares.jpg);
+    background-image: url(../assets/images/imagenes_productos_main_index/foto5_collares.webp);
 }
 
 #img-6 {
-    background-image: url(../assets/images/imagenes_productos_main_index/foto6_cristales.jpg);
+    background-image: url(../assets/images/imagenes_productos_main_index/foto6_cristales.webp);
 }
 
 .img-categorias {
@@ -353,7 +361,7 @@ main {
     height: 480px;
     margin-bottom: 10px;
     border-radius: 20px;
-    background-image: url(../assets/images/imagenes_new_in/foto_1.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
     background-position: center;
     background-size: cover;
     transition: all .5s ease;
@@ -364,7 +372,7 @@ main {
     height: 480px;
     margin-bottom: 10px;
     border-radius: 20px;
-    background-image: url(../assets/images/imagenes_new_in/foto_2.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
     background-position: center;
     background-size: cover;
     transition: all .5s ease;
@@ -375,7 +383,7 @@ main {
     height: 480px;
     margin-bottom: 10px;
     border-radius: 20px;
-    background-image: url(../assets/images/imagenes_new_in/foto_3.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
     background-position: center;
     background-size: cover;
     transition: all .5s ease;
@@ -386,7 +394,7 @@ main {
     height: 480px;
     margin-bottom: 10px;
     border-radius: 20px;
-    background-image: url(../assets/images/imagenes_new_in/foto_4.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
     background-position: center;
     background-size: cover;
     transition: all .5s ease;
@@ -397,7 +405,7 @@ main {
     height: 480px;
     margin-bottom: 10px;
     border-radius: 20px;
-    background-image: url(../assets/images/imagenes_new_in/foto_5.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
     background-position: center;
     background-size: cover;
     transition: all .5s ease;
@@ -408,7 +416,7 @@ main {
     height: 480px;
     margin-bottom: 10px;
     border-radius: 20px;
-    background-image: url(../assets/images/imagenes_new_in/foto_6.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
     background-position: center;
     background-size: cover;
     transition: all .5s ease;
@@ -419,7 +427,7 @@ main {
     height: 480px;
     margin-bottom: 10px;
     border-radius: 20px;
-    background-image: url(../assets/images/imagenes_new_in/foto_7.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_7.webp);
     background-position: center;
     background-size: cover;
     transition: all .5s ease;
@@ -430,7 +438,7 @@ main {
     height: 480px;
     margin-bottom: 10px;
     border-radius: 20px;
-    background-image: url(../assets/images/imagenes_new_in/foto_8.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_8.webp);
     background-position: center;
     background-size: cover;
     transition: all .5s ease;
@@ -441,7 +449,7 @@ main {
     height: 480px;
     margin-bottom: 10px;
     border-radius: 20px;
-    background-image: url(../assets/images/imagenes_new_in/foto_9.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_9.webp);
     background-position: center;
     background-size: cover;
     transition: all .5s ease;
@@ -452,7 +460,7 @@ main {
     height: 480px;
     margin-bottom: 10px;
     border-radius: 20px;
-    background-image: url(../assets/images/imagenes_new_in/foto_10.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_10.webp);
     background-position: center;
     background-size: cover;
     transition: all .5s ease;
@@ -463,7 +471,7 @@ main {
     height: 480px;
     margin-bottom: 10px;
     border-radius: 20px;
-    background-image: url(../assets/images/imagenes_new_in/foto_11.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_11.webp);
     background-position: center;
     background-size: cover;
     transition: all .5s ease;
@@ -474,7 +482,7 @@ main {
     height: 480px;
     margin-bottom: 10px;
     border-radius: 20px;
-    background-image: url(../assets/images/imagenes_new_in/foto_12.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_12.webp);
     background-position: center;
     background-size: cover;
     transition: all .5s ease;
@@ -484,11 +492,11 @@ main {
 
 .grid-main-cuidados {
     display: grid;
-    grid-template-areas: "h1 h1 h1"
-        "nav content content";
+    grid-template-areas: "nav content content";
 }
 
 #content-area {
+    grid-area: content;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -513,10 +521,6 @@ main {
 .video-cuidados {
     text-align: center;
     padding: 40px;
-}
-
-#h1-area {
-    grid-area: h1;
 }
 
 #nav-area {
@@ -633,6 +637,12 @@ main {
     margin-bottom: 30px;
 }
 
+.link-pick-up-point-contacto {
+    text-decoration: none;
+    color: #c09c50;
+    font-weight: bold;
+}
+
 .subtitulos-pick-up {
     font-weight: 600;
 }
@@ -649,7 +659,7 @@ main {
     color: #c09c50;
 }
 
-.descripcion-mapas h3 {
+.descripcion-mapas h4 {
     font-weight: 600;
 }
 
@@ -903,94 +913,94 @@ footer ul li a {
 }
 
 .card-new-in-index-1:hover {
-    background-image: url(../assets/images/imagenes_new_in/foto_1_hover.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_1_hover.webp);
     transition: all .5s ease;
 }
 
 .card-new-in-index-2:hover {
-    background-image: url(../assets/images/imagenes_new_in/foto_2_hover.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_2_hover.webp);
     transition: all .5s ease;
 }
 
 .card-new-in-index-3:hover {
-    background-image: url(../assets/images/imagenes_new_in/foto_3_hover.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_3_hover.webp);
     transition: all .5s ease;
 }
 
 .card-new-in-index-4:hover {
-    background-image: url(../assets/images/imagenes_new_in/foto_4_hover.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_4_hover.webp);
     transition: all .5s ease;
 }
 
 .card-new-in-index-5:hover {
-    background-image: url(../assets/images/imagenes_new_in/foto_5_hover.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_5_hover.webp);
     transition: all .5s ease;
 }
 
 .card-new-in-index-6:hover {
-    background-image: url(../assets/images/imagenes_new_in/foto_6_hover.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_6_hover.webp);
     transition: all .5s ease;
 }
 
 /* new in */
 
 .card-new-in-principal-1:hover {
-    background-image: url(../assets/images/imagenes_new_in/foto_1_hover.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_1_hover.webp);
     transition: all .5s ease;
 }
 
 .card-new-in-principal-2:hover {
-    background-image: url(../assets/images/imagenes_new_in/foto_2_hover.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_2_hover.webp);
     transition: all .5s ease;
 }
 
 .card-new-in-principal-3:hover {
-    background-image: url(../assets/images/imagenes_new_in/foto_3_hover.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_3_hover.webp);
     transition: all .5s ease;
 }
 
 .card-new-in-principal-4:hover {
-    background-image: url(../assets/images/imagenes_new_in/foto_4_hover.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_4_hover.webp);
     transition: all .5s ease;
 }
 
 .card-new-in-principal-5:hover {
-    background-image: url(../assets/images/imagenes_new_in/foto_5_hover.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_5_hover.webp);
     transition: all .5s ease;
 }
 
 .card-new-in-principal-6:hover {
-    background-image: url(../assets/images/imagenes_new_in/foto_6_hover.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_6_hover.webp);
     transition: all .5s ease;
 }
 
 .card-new-in-principal-7:hover {
-    background-image: url(../assets/images/imagenes_new_in/foto_7_hover.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_7_hover.webp);
     transition: all .5s ease;
 }
 
 .card-new-in-principal-8:hover {
-    background-image: url(../assets/images/imagenes_new_in/foto_8_hover.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_8_hover.webp);
     transition: all .5s ease;
 }
 
 .card-new-in-principal-9:hover {
-    background-image: url(../assets/images/imagenes_new_in/foto_9_hover.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_9_hover.webp);
     transition: all .5s ease;
 }
 
 .card-new-in-principal-10:hover {
-    background-image: url(../assets/images/imagenes_new_in/foto_10_hover.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_10_hover.webp);
     transition: all .5s ease;
 }
 
 .card-new-in-principal-11:hover {
-    background-image: url(../assets/images/imagenes_new_in/foto_11_hover.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_11_hover.webp);
     transition: all .5s ease;
 }
 
 .card-new-in-principal-12:hover {
-    background-image: url(../assets/images/imagenes_new_in/foto_12_hover.jpg);
+    background-image: url(../assets/images/imagenes_new_in/foto_12_hover.webp);
     transition: all .5s ease;
 }
 
@@ -1076,32 +1086,32 @@ a:hover {
     }
 
     .card-new-in-index-1:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_1.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
         transition: none;
     }
 
     .card-new-in-index-2:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_2.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
         transition: none;
     }
 
     .card-new-in-index-3:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_3.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
         transition: none;
     }
 
     .card-new-in-index-4:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_4.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
         transition: none;
     }
 
     .card-new-in-index-5:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_5.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
         transition: none;
     }
 
     .card-new-in-index-6:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_6.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
         transition: none;
     }
 
@@ -1116,62 +1126,62 @@ a:hover {
     /* main - pagina new in - animaciones */
 
     .card-new-in-principal-1:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_1.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
         transition: none;
     }
 
     .card-new-in-principal-2:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_2.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
         transition: none;
     }
 
     .card-new-in-principal-3:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_3.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
         transition: none;
     }
 
     .card-new-in-principal-4:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_4.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
         transition: none;
     }
 
     .card-new-in-principal-5:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_5.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
         transition: none;
     }
 
     .card-new-in-principal-6:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_6.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
         transition: none;
     }
 
     .card-new-in-principal-7:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_7.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_7.webp);
         transition: none;
     }
 
     .card-new-in-principal-8:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_8.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_8.webp);
         transition: none;
     }
 
     .card-new-in-principal-9:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_9.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_9.webp);
         transition: none;
     }
 
     .card-new-in-principal-10:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_10.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_10.webp);
         transition: none;
     }
 
     .card-new-in-principal-11:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_11.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_11.webp);
         transition: none;
     }
 
     .card-new-in-principal-12:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_12.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_12.webp);
         transition: none;
     }
 
@@ -1290,32 +1300,32 @@ a:hover {
     }
 
     .card-new-in-index-1:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_1.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
         transition: none;
     }
 
     .card-new-in-index-2:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_2.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
         transition: none;
     }
 
     .card-new-in-index-3:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_3.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
         transition: none;
     }
 
     .card-new-in-index-4:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_4.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
         transition: none;
     }
 
     .card-new-in-index-5:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_5.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
         transition: none;
     }
 
     .card-new-in-index-6:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_6.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
         transition: none;
     }
 
@@ -1330,62 +1340,62 @@ a:hover {
     /* main - pagina new in - animaciones*/
 
     .card-new-in-principal-1:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_1.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
         transition: none;
     }
 
     .card-new-in-principal-2:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_2.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
         transition: none;
     }
 
     .card-new-in-principal-3:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_3.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
         transition: none;
     }
 
     .card-new-in-principal-4:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_4.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
         transition: none;
     }
 
     .card-new-in-principal-5:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_5.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
         transition: none;
     }
 
     .card-new-in-principal-6:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_6.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
         transition: none;
     }
 
     .card-new-in-principal-7:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_7.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_7.webp);
         transition: none;
     }
 
     .card-new-in-principal-8:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_8.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_8.webp);
         transition: none;
     }
 
     .card-new-in-principal-9:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_9.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_9.webp);
         transition: none;
     }
 
     .card-new-in-principal-10:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_10.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_10.webp);
         transition: none;
     }
 
     .card-new-in-principal-11:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_11.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_11.webp);
         transition: none;
     }
 
     .card-new-in-principal-12:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_12.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_12.webp);
         transition: none;
     }
 
@@ -1506,32 +1516,32 @@ a:hover {
     }
 
     .card-new-in-index-1:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_1.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
         transition: none;
     }
 
     .card-new-in-index-2:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_2.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
         transition: none;
     }
 
     .card-new-in-index-3:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_3.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
         transition: none;
     }
 
     .card-new-in-index-4:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_4.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
         transition: none;
     }
 
     .card-new-in-index-5:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_5.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
         transition: none;
     }
 
     .card-new-in-index-6:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_6.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
         transition: none;
     }
 
@@ -1546,62 +1556,62 @@ a:hover {
     /* main - pagina new in - animaciones */
 
     .card-new-in-principal-1:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_1.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
         transition: none;
     }
 
     .card-new-in-principal-2:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_2.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
         transition: none;
     }
 
     .card-new-in-principal-3:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_3.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
         transition: none;
     }
 
     .card-new-in-principal-4:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_4.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
         transition: none;
     }
 
     .card-new-in-principal-5:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_5.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
         transition: none;
     }
 
     .card-new-in-principal-6:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_6.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
         transition: none;
     }
 
     .card-new-in-principal-7:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_7.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_7.webp);
         transition: none;
     }
 
     .card-new-in-principal-8:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_8.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_8.webp);
         transition: none;
     }
 
     .card-new-in-principal-9:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_9.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_9.webp);
         transition: none;
     }
 
     .card-new-in-principal-10:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_10.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_10.webp);
         transition: none;
     }
 
     .card-new-in-principal-11:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_11.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_11.webp);
         transition: none;
     }
 
     .card-new-in-principal-12:hover {
-        background-image: url(../assets/images/imagenes_new_in/foto_12.jpg);
+        background-image: url(../assets/images/imagenes_new_in/foto_12.webp);
         transition: none;
     }
 
