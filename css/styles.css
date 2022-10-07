@@ -608,6 +608,10 @@ main {
     font-weight: 400;
 }
 
+.accordion-body ul li a{
+    font-weight:normal;
+}
+
 #content-area {
     grid-area: content;
     margin-top: 50px;
@@ -1160,6 +1164,14 @@ a:hover {
         align-items:flex-start;
     }
 
+    .fa-solid {
+        color:#c09c50;
+    }
+
+    button:focus:not(:focus-visible) {
+        color:#c09c50;
+    }
+
     #active {
         border-bottom: none;
     }
@@ -1183,6 +1195,10 @@ a:hover {
     /* MAIN */
 
     /* main - pagina index */
+
+    .carousel-indicators {
+        margin-bottom: 0;
+    }
 
     .cont-categorias-main {
         grid-template-columns: 1fr 1fr;
@@ -1564,6 +1580,14 @@ iframe {
         align-items: flex-start;
     }
 
+    .fa-solid {
+        color:#c09c50;
+    }
+
+    button:focus:not(:focus-visible) {
+        color:#c09c50;
+    }
+
     #active {
         border-bottom: none;
     }
@@ -1587,6 +1611,14 @@ iframe {
     /* MAIN */
 
     /* main - pagina index */
+
+    .carousel-indicators {
+        margin-bottom: 0;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 14px;
+    }
 
     .cont-categorias-main {
         grid-template-columns: 1fr 1fr;
@@ -1967,6 +1999,14 @@ iframe {
 
     .navbar-nav {
         align-items: flex-start;
+    }
+
+    .fa-solid {
+        color:#c09c50;
+    }
+
+    button:focus:not(:focus-visible) {
+        color:#c09c50;
     }
 
     #active {
@@ -2358,6 +2398,14 @@ iframe {
         align-items: flex-start;
     }
 
+    .fa-solid {
+        color:#c09c50;
+    }
+
+    button:focus:not(:focus-visible) {
+        color:#c09c50;
+    }
+
     #active {
         border-bottom: none;
     }
@@ -2365,6 +2413,14 @@ iframe {
     /* MAIN */
 
     /* main - pagina index */
+
+    .carousel-indicators {
+        margin-bottom: 0;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 14px;
+    }
 
     .cont-categorias-main {
         grid-template-columns: 1fr 1fr;
@@ -2750,6 +2806,14 @@ iframe {
         align-items: flex-start;
     }
 
+    .fa-solid {
+        color:#c09c50;
+    }
+
+    button:focus:not(:focus-visible) {
+        color:#c09c50;
+    }
+
     #active {
         border-bottom: none;
     }
@@ -2757,6 +2821,14 @@ iframe {
     /* MAIN */
 
     /* main - pagina index */
+
+    .carousel-indicators {
+        margin-bottom: 0;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 14px;
+    }
 
     .cont-categorias-main {
         grid-template-columns: 1fr 1fr;
@@ -3142,6 +3214,14 @@ iframe {
         align-items: flex-start;
     }
 
+    .fa-solid {
+        color:#c09c50;
+    }
+
+    button:focus:not(:focus-visible) {
+        color:#c09c50;
+    }
+
     #active {
         border-bottom: none;
     }
@@ -3149,6 +3229,14 @@ iframe {
     /* MAIN */
 
     /* main - pagina index */
+
+    .carousel-indicators {
+        margin-bottom: 0;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 14px;
+    }
 
     .cont-categorias-main {
         grid-template-columns: 1fr 1fr;
@@ -3498,6 +3586,14 @@ iframe {
         align-items: flex-start;
     }
 
+    .fa-solid {
+        color:#c09c50;
+    }
+
+    button:focus:not(:focus-visible) {
+        color:#c09c50;
+    }
+
     #active {
         border-bottom: none;
     }
@@ -3505,6 +3601,14 @@ iframe {
     /* MAIN */
 
     /* main - pagina index */
+
+    .carousel-indicators {
+        margin-bottom: 0;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 14px;
+    }
 
     .cont-categorias-main {
         grid-template-columns: 1fr 1fr;
@@ -3855,6 +3959,14 @@ iframe {
         align-items: flex-start;
     }
 
+    .fa-solid {
+        color:#c09c50;
+    }
+
+    button:focus:not(:focus-visible) {
+        color:#c09c50;
+    }
+
     #active {
         border-bottom: none;
     }
@@ -3862,6 +3974,14 @@ iframe {
     /* MAIN */
 
     /* main - pagina index */
+
+    .carousel-indicators {
+        margin-bottom: 0;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 14px;
+    }
 
     .cont-categorias-main {
         grid-template-columns: 1fr 1fr;
@@ -4213,11 +4333,27 @@ iframe {
         align-items: flex-start;
     }
 
+    .fa-solid {
+        color:#c09c50;
+    }
+
+    button:focus:not(:focus-visible) {
+        color:#c09c50;
+    }
+
     #active {
         border-bottom: none;
     }
 
     /* main - pagina index */
+
+    .carousel-indicators {
+        margin-bottom: 0;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 14px;
+    }
 
     .cont-categorias-main {
         grid-template-columns: 1fr 1fr;
