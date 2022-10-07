@@ -365,6 +365,7 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     margin: 20px;
+    justify-items: center;
 }
 
 .new-in-principal a {
@@ -1353,10 +1354,6 @@ a:hover {
         width: 460px;
     }
 
-    .productos-new-in-page  {
-        margin: 26px;
-    }
-
     .productos-new-in-page p {
         font-size: 22px;
     }
@@ -1514,7 +1511,6 @@ iframe {
         justify-content: center;
         align-items: center;
     }
-
 
     footer {
         flex-direction: column;
@@ -1771,10 +1767,6 @@ iframe {
     .card-new-in-principal-12 {
         height: 460px;
         width: 460px;
-    }
-
-    .productos-new-in-page {
-        margin: 26px;
     }
 
     .productos-new-in-page p {
@@ -2168,10 +2160,6 @@ iframe {
     .card-new-in-principal-12 {
         height: 400px;
         width: 400px;
-    }
-
-    .productos-new-in-page {
-        margin: 27px;
     }
 
     .productos-new-in-page p {
@@ -2578,10 +2566,6 @@ iframe {
         height: 350px;
     }
 
-    .productos-new-in-page {
-        margin: 30px;
-    }
-
     .productos-new-in-page p {
         font-size: 22px;
     }
@@ -2986,10 +2970,6 @@ iframe {
         height: 350px;
     }
 
-    .productos-new-in-page {
-        margin: 17px;
-    }
-
     .productos-new-in-page p {
         font-size: 22px;
     }
@@ -3391,10 +3371,6 @@ iframe {
         height: 290px;
     }
 
-    .productos-new-in-page {
-        margin: 25px;
-    }
-
     .productos-new-in-page p {
         font-size: 22px;
     }
@@ -3704,68 +3680,64 @@ iframe {
     /* main - pagina new in */
 
     .card-new-in-principal-1 {
-        width: 230px;
-        height: 230px;
+        width: 220px;
+        height: 220px;
     }
 
     .card-new-in-principal-2 {
-        width: 230px;
-        height: 230px;
+        width: 220px;
+        height: 220px;
     }
 
     .card-new-in-principal-3 {
-        width: 230px;
-        height: 230px;
+        width: 220px;
+        height: 220px;
         ;
     }
 
     .card-new-in-principal-4 {
-        width: 230px;
-        height: 230px;
+        width: 220px;
+        height: 220px;
     }
 
     .card-new-in-principal-5 {
-        width: 230px;
-        height: 230px;
+        width: 220px;
+        height: 220px;
     }
 
     .card-new-in-principal-6 {
-        width: 230px;
-        height: 230px;
+        width: 220px;
+        height: 220px;
     }
 
     .card-new-in-principal-7 {
-        width: 230px;
-        height: 230px;
+        width: 220px;
+        height: 220px;
     }
 
     .card-new-in-principal-8 {
-        width: 230px;
-        height: 230px;
+        width: 220px;
+        height: 220px;
     }
 
     .card-new-in-principal-9 {
-        width: 230px;
-        height: 230px;
+        width: 220px;
+        height: 220px;
     }
 
     .card-new-in-principal-10 {
-        width: 230px;
-        height: 230px;
+        width: 220px;
+        height: 220px;
     }
 
     .card-new-in-principal-11 {
-        width: 230px;
-        height: 230px;
+        width: 220px;
+        height: 220px;
     }
 
     .card-new-in-principal-12 {
-        width: 230px;
-        height: 230px;
-    }
-
-    .productos-new-in-page {
-        margin: 19px;
+        width: 220px;
+        height: 220px;
     }
 
     .productos-new-in-page p {
@@ -4130,10 +4102,6 @@ iframe {
     .card-new-in-principal-12 {
         width: 170px;
         height: 170px;
-    }
-
-    .productos-new-in-page {
-        margin: 19px;
     }
 
     .productos-new-in p {
