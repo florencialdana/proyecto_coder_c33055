@@ -3518,7 +3518,6 @@ iframe {
         align-items: center;
     }
 
-
     footer {
         flex-direction: column;
     }
@@ -3533,6 +3532,18 @@ iframe {
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+
+    .display-footer-social h3 {
+        font-size: 26px;
+    }
+
+    .display-footer h3 {
+        font-size: 26px;
+    }
+
+    footer ul li a {
+        font-size: 20px;
     }
 
     #email_newsletter {
@@ -3887,7 +3898,6 @@ iframe {
         align-items: center;
     }
 
-
     footer {
         flex-direction: column;
     }
@@ -3902,6 +3912,22 @@ iframe {
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+
+    .size-iconos-button {
+        width: 50px;
+    }
+
+    .display-footer-social h3 {
+        font-size: 24px;
+    }
+
+    .display-footer h3 {
+        font-size: 24px;
+    }
+
+    footer ul li a {
+        font-size: 18px;
     }
 
     #email_newsletter {
@@ -4255,7 +4281,6 @@ iframe {
         align-items: center;
     }
 
-
     footer {
         flex-direction: column;
     }
@@ -4270,6 +4295,26 @@ iframe {
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+
+    .size-iconos-button {
+        width: 50px;
+    }
+
+    .display-footer-starter p {
+        font-size: 17px;
+    }
+
+    .display-footer-social h3 {
+        font-size: 24px;
+    }
+
+    .display-footer h3 {
+        font-size: 24px;
+    }
+
+    footer ul li a {
+        font-size: 18px;
     }
 
     #email_newsletter {
@@ -4611,7 +4656,6 @@ iframe {
         align-items: center;
     }
 
-
     footer {
         flex-direction: column;
     }
@@ -4626,6 +4670,26 @@ iframe {
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+
+    .size-iconos-button {
+        width: 50px;
+    }
+
+    .display-footer-starter p {
+        font-size: 17px;
+    }
+
+    .display-footer-social h3 {
+        font-size: 24px;
+    }
+
+    .display-footer h3 {
+        font-size: 24px;
+    }
+
+    footer ul li a {
+        font-size: 18px;
     }
 
     #email_newsletter {
