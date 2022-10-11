@@ -1,0 +1,33 @@
+$vlore-dorado:#c09c50;
+
+$vlore-marron:#905b4c;
+
+$vlore-transition: all .5s ease;
+
+$vlore-font-size-desktop: ("small":16px, "medium":24px, "large":40px);
+$vlore-font-size-mobile: ("small":10px, "medium":18px, "large":32px);
+
+
+
+// MIXINS
+
+@mixin card-new-in-index-mixin {
+    width: 233px;
+    height: 233px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    transition: $vlore-transition;
+}
+
+
+@mixin card-new-in-principal-mixin {
+    width: 480px;
+    height: 480px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    transition: $vlore-transition;
+}

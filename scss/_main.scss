@@ -1,0 +1,669 @@
+// MAIN
+
+// main - pagina index
+
+.main-index {
+    .margin-section {
+        margin-top: 30px;
+        margin-bottom: 50px;
+
+        .flex-cont-categorias {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+
+            .cont-categorias-main {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                margin-left: 10px;
+                margin-right: 10px;
+
+                .img-categorias {
+                    width: 500px;
+                    height: 750px;
+                    margin: 10px;
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 20px;
+                    text-decoration: none;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    h4 {
+                        color: $vlore-dorado;
+                        font-size: 3em;
+                    }
+
+                    p{
+                        color: $vlore-dorado;
+                    }
+
+                    .button-card  {
+                        height: 120px;
+                        width: 80%;
+                        background-color: #faeeee;
+                        border-radius: 20px;
+                        text-align: center;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        transition: $vlore-transition;
+
+                        &:hover{
+                            transform: scale(1.1);
+                            transition: $vlore-transition;
+                        }
+
+                        p {
+                            margin: 0;
+                        }
+                    }
+                }
+
+                #img-1 {
+                    background-image: url(../assets/images/imagenes_productos_main_index/foto1_aros.webp);
+                }
+
+                #img-2 {
+                    background-image: url(../assets/images/imagenes_productos_main_index/foto2_tobilleras.webp);
+                }
+
+                #img-3 {
+                    background-image: url(../assets/images/imagenes_productos_main_index/foto3_anillos.webp);
+                }
+
+                #img-4 {
+                    background-image: url(../assets/images/imagenes_productos_main_index/foto4_pulseras.webp);
+                }
+
+                #img-5 {
+                    background-image: url(../assets/images/imagenes_productos_main_index/foto5_collares.webp);
+                }
+
+                #img-6 {
+                    background-image: url(../assets/images/imagenes_productos_main_index/foto6_cristales.webp);
+                }
+            }
+        }
+
+        .cont-new-in-index {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            a {
+                text-decoration: none;
+
+                .productos-new-in {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+                    margin: 15px;
+
+                    p {
+                        text-align: left;
+                        color: #c09c50;
+                        width: 100%;
+                        font-weight: 600;
+                    }
+
+                    .card-new-in-index-1{
+                        background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
+                        @include card-new-in-index-mixin;
+
+                        &:hover{
+                            transition: $vlore-transition;
+                            background-image: url(../assets/images/imagenes_new_in/foto_1_hover.webp);
+                        }
+                    }
+                    .card-new-in-index-2{
+                        background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
+                        @include card-new-in-index-mixin;
+
+                        &:hover{
+                            transition: $vlore-transition;
+                            background-image: url(../assets/images/imagenes_new_in/foto_2_hover.webp);
+                        }
+                    }
+                    .card-new-in-index-3{
+                        background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
+                        @include card-new-in-index-mixin;
+
+                        &:hover{
+                            transition: $vlore-transition;
+                            background-image: url(../assets/images/imagenes_new_in/foto_3_hover.webp);
+                        }
+                    }
+                    .card-new-in-index-4{
+                        background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
+                        @include card-new-in-index-mixin;
+
+                        &:hover{
+                            transition: $vlore-transition;
+                            background-image: url(../assets/images/imagenes_new_in/foto_4_hover.webp);
+                        }
+                    }
+                    .card-new-in-index-5{
+                        background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
+                        @include card-new-in-index-mixin;
+
+                        &:hover{
+                            transition: $vlore-transition;
+                            background-image: url(../assets/images/imagenes_new_in/foto_5_hover.webp);
+                        }
+                    }
+                    .card-new-in-index-6{
+                        background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
+                        @include card-new-in-index-mixin;
+
+                        &:hover{
+                            transition: $vlore-transition;
+                            background-image: url(../assets/images/imagenes_new_in/foto_6_hover.webp);
+                        }
+                    }
+                }
+            }
+        }
+
+        .call-to-action {
+            text-align: center;
+            font-size: 15px;
+            padding-bottom: 10px;
+
+            a {
+                color: #c09c50;
+                text-decoration: none;
+
+                &:hover{
+                    color: #905b4c;
+                    transition: opacity 0s, all .3s cubic-bezier(.77, 0, .175, 1);
+                }
+            }
+        }
+    }
+
+    .carousel {
+        .carousel-control-prev {
+            .carousel-control-prev-icon {
+                background-image: url(../assets/images/imagenes_banner/button_banner/button_back.png);
+            }
+        }
+
+        .carousel-control-next {
+            .carousel-control-next-icon {
+                background-image: url(../assets/images/imagenes_banner/button_banner/button_next.png);
+            }
+        }
+    }
+}
+
+
+// main - pagina new in
+
+.main-new-in {
+
+    .new-in-principal{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin: 20px;
+        justify-items: center;
+
+        a{
+            text-decoration: none;
+        }
+
+        .productos-new-in-page {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            margin: 15px;
+
+            p{
+                text-align: left;
+                color:$vlore-dorado;
+                width: 100%;
+                font-weight: 600;
+            }
+
+            .card-new-in-principal-1 {
+                background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_new_in/foto_1_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
+            .card-new-in-principal-2 {
+                background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_new_in/foto_2_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
+            .card-new-in-principal-3 {
+                background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_new_in/foto_3_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
+            .card-new-in-principal-4 {
+                background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_new_in/foto_4_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
+            .card-new-in-principal-5 {
+                background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_new_in/foto_5_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
+            .card-new-in-principal-6 {
+                background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_new_in/foto_6_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
+            .card-new-in-principal-7 {
+                background-image: url(../assets/images/imagenes_new_in/foto_7.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_new_in/foto_7_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
+            .card-new-in-principal-8 {
+                background-image: url(../assets/images/imagenes_new_in/foto_8.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_new_in/foto_8_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
+            .card-new-in-principal-9 {
+                background-image: url(../assets/images/imagenes_new_in/foto_9.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_new_in/foto_9_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
+            .card-new-in-principal-10 {
+                background-image: url(../assets/images/imagenes_new_in/foto_10.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_new_in/foto_10_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
+            .card-new-in-principal-11 {
+                background-image: url(../assets/images/imagenes_new_in/foto_11.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_new_in/foto_11_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
+            .card-new-in-principal-12 {
+                background-image: url(../assets/images/imagenes_new_in/foto_12.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_new_in/foto_12_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
+        }
+    }
+}
+
+
+// main - pagina cuidados
+
+.grid-main-cuidados {
+
+    display: grid;
+    grid-template-areas: "nav content content";
+
+    #nav-area {
+
+        grid-area: nav;
+        display: flex;
+        justify-content: center;
+        background: #00000005;
+        width: 400px;
+        box-shadow: 1px 1px 30px $vlore-dorado;
+        position: relative;
+
+        .accordion {
+
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-top: 50px;
+            position: sticky;
+            top: 0;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+            .accordion-item{
+
+                border: none;
+                background-color: transparent;
+
+                .accordion-header {
+
+                    .accordion-button{
+
+                        position: relative;
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        padding: 1rem 1.25rem;
+                        font-size: 1rem;
+                        color: $vlore-dorado;
+                        font-weight: 600;
+                        text-align: left;
+                        background-color: transparent;
+                        border: 0;
+                        border-radius: 0;
+                        overflow-anchor: none;
+                        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+
+
+                        &:not(.collapsed) {
+                            color: $vlore-dorado;
+                            background-color: transparent;
+                            box-shadow: none;
+                        }
+
+                        &:focus {
+                            z-index: 3;
+                            border-color: transparent;
+                            outline: 0;
+                            box-shadow: 0 0 0 .25remrgba(13, 110, 253, .25);
+                        }
+                    }
+                }
+
+                .accordion-collapse{
+
+                    .accordion-body{
+
+                        color: $vlore-dorado;
+                        font-weight: 400;
+
+                        ul {
+
+                            li{
+                                font-weight: 400;
+
+                                a{
+                                    font-weight:normal;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #content-area {
+
+        grid-area: content;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        .parrafo-cuidados{
+
+            font-weight: 600;
+            width: 70%;
+            margin-bottom: 5px;
+            color: $vlore-dorado;
+
+            .subtitulos{
+
+                color: $vlore-dorado;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 10px;
+            }
+
+            .video-cuidados{
+                width: 100%;
+                text-align: center;
+                padding: 40px;
+
+                .video-youtube{
+                    width: 100%;
+                    height: 400px;
+                }
+            }
+        }
+    }
+}
+
+
+// main - pagina pick-up points
+
+.main-pick-up-points {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .parrafo-centrado-principal {
+
+        font-weight: 500;
+        color: $vlore-dorado;
+        text-align: center;
+        width: 70%;
+        margin: 30px 10px 50px 10px;
+
+        .espaciado{
+            margin-bottom: 30px;
+        }
+
+        .subtitulos-pick-up{
+            font-weight: 600;
+        }
+
+        p{
+            .link-pick-up-point-contacto{
+                text-decoration: none;
+                color: $vlore-dorado;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .section-two-pick-up-points {
+
+        .contenedor-mapas{  
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 60px;
+
+            .descripcion-mapas{
+
+                margin-left: 20px;
+                color: $vlore-dorado;
+
+                h4{
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+
+// main - pagina contact us
+
+.main-contenedor-contacto {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .contacto-intro-text{
+
+        .contact-form-wrapper{
+
+            padding: 100px 0;
+
+            .contact-form{
+
+                padding: 30px 40px;
+                background-color: #ffffff;
+                border-radius: 12px;
+                max-width: 600px;
+
+                textarea{
+                    resize: none;
+                }
+
+                .title{
+                    text-align: center;
+                    font-size: 35px;
+                    font-weight: 600;
+                    color: $vlore-dorado;
+                }
+            }
+
+                .description{
+                    color: $vlore-dorado;
+                    font-size: 14px;
+                    text-align: center;
+                }
+
+                .form-input{
+                    background-color: #f0f4f5;
+                    height: 50px;
+                    padding-left: 16px;
+                }
+
+                .submit-button-wrapper{
+                    text-align: center;
+
+                    input{
+                        border: none;
+                        border-radius: 4px;
+                        background-color: $vlore-dorado;
+                        color: white;
+                        text-transform: uppercase;
+                        padding: 10px 60px;
+                        font-weight: 500;
+                        letter-spacing: 2px;
+
+                        &:hover{
+                            background-color: $vlore-marron;
+                        }
+                    }
+                }
+
+                div {
+
+                    .form-text-area {
+                        background-color: #f0f4f5;
+                        padding-left: 16px;
+                        height: auto;
+                    }
+
+                    .form-select {
+                        font-weight: 500;
+                        text-align: center;
+                        color: $vlore-dorado;
+
+                        &:focus{
+                            border-color: $vlore-dorado;
+                            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px $vlore-dorado;
+                        }
+                    }
+
+                    .form-control{
+
+                        &::placeholder{
+                            color: $vlore-dorado;
+                            font-weight: 500;
+                            opacity: 1;
+                        }
+
+                        &:-ms-input-placeholder {
+                            color: $vlore-dorado;
+                            font-weight: 500;
+                        }
+
+                        &::-ms-input-placeholder {
+                            color: $vlore-dorado;
+                            font-weight: 500;
+                        }
+
+                        &:focus{
+                            border-color: $vlore-dorado;
+                            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px $vlore-dorado;
+                        }
+                    }
+                }
+            }
+    }
+
+    .contenedor-contacto{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h2{
+            color: $vlore-dorado;
+            font-weight: 600;
+        }
+
+        p{
+            color: $vlore-dorado;
+        }
+
+        a{
+            .icono-body{
+                height: 50px;
+                width: 50px;
+                margin-top: 20px;
+                margin-bottom: 30px;
+                transition:$vlore-transition;
+
+                &:hover{
+                    transform: scale(1.3);
+                    transition: $vlore-transition;
+                }
+            }
+        }
+    }
+}
