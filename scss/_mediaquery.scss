@@ -1110,7 +1110,7 @@
         }
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:991px) {
     
     // GENERAL
 
@@ -1143,9 +1143,14 @@
         nav {
     
             .container-fluid {
+                flex-direction: row-reverse;
+
+                #placeholder-nav {
+                    height: 100%;
+                    width: 40px;
+                }
     
                 button {
-
                     .fa-solid {
                         color: $vlore-dorado;
                     }
@@ -1603,6 +1608,12 @@
         nav {
     
             .container-fluid {
+                flex-direction: row-reverse;
+
+                #placeholder-nav {
+                    height: 100%;
+                    width: 40px;
+                }
     
                 button {
                     .fa-solid {
@@ -2075,6 +2086,12 @@
         nav {
     
             .container-fluid {
+                flex-direction: row-reverse;
+
+                #placeholder-nav {
+                    height: 100%;
+                    width: 40px;
+                }
     
                 button {
 
@@ -2544,6 +2561,12 @@
         nav {
     
             .container-fluid {
+                flex-direction: row-reverse;
+
+                #placeholder-nav {
+                    height: 100%;
+                    width: 40px;
+                }
     
                 button {
                     .fa-solid {
@@ -2992,11 +3015,11 @@
         nav {
     
             .container-fluid {
-    
-                a {
-                    .logo {
-                        height: 60px;
-                    }
+                flex-direction: row-reverse;
+
+                #placeholder-nav {
+                    height: 100%;
+                    width: 40px;
                 }
     
                 button {
@@ -3431,6 +3454,12 @@
         nav {
     
             .container-fluid {
+                flex-direction: row-reverse;
+
+                #placeholder-nav {
+                    height: 100%;
+                    width: 40px;
+                }
     
                 a {
                     .logo {
@@ -3872,6 +3901,12 @@ header {
     nav {
 
         .container-fluid {
+            flex-direction: row-reverse;
+
+            #placeholder-nav {
+                height: 100%;
+                width: 40px;
+            }
 
             a {
                 .logo {

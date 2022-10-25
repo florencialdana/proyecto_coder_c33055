@@ -96,6 +96,7 @@ header nav .container-fluid a .logo {
 header nav .container-fluid #navbarText .display-header-right ul {
   display: flex;
   margin-right: 15px;
+  margin-bottom: 0rem;
 }
 header nav .container-fluid #navbarText .navbar-nav {
   display: flex;
@@ -1564,7 +1565,7 @@ footer ul li a {
     font-size: 22px;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 991px) {
   button:focus:not(:focus-visible) {
     color: #c09c50;
   }
@@ -1581,6 +1582,13 @@ footer ul li a {
   }
   .titulos {
     font-size: 50px;
+  }
+  header nav .container-fluid {
+    flex-direction: row-reverse;
+  }
+  header nav .container-fluid #placeholder-nav {
+    height: 100%;
+    width: 40px;
   }
   header nav .container-fluid button .fa-solid {
     color: #c09c50;
@@ -1876,6 +1884,13 @@ footer ul li a {
   }
   .titulos {
     font-size: 35px;
+  }
+  header nav .container-fluid {
+    flex-direction: row-reverse;
+  }
+  header nav .container-fluid #placeholder-nav {
+    height: 100%;
+    width: 40px;
   }
   header nav .container-fluid button .fa-solid {
     color: #c09c50;
@@ -2175,6 +2190,13 @@ footer ul li a {
   .titulos {
     font-size: 35px;
   }
+  header nav .container-fluid {
+    flex-direction: row-reverse;
+  }
+  header nav .container-fluid #placeholder-nav {
+    height: 100%;
+    width: 40px;
+  }
   header nav .container-fluid button .fa-solid {
     color: #c09c50;
   }
@@ -2473,6 +2495,13 @@ footer ul li a {
   .titulos {
     font-size: 30px;
   }
+  header nav .container-fluid {
+    flex-direction: row-reverse;
+  }
+  header nav .container-fluid #placeholder-nav {
+    height: 100%;
+    width: 40px;
+  }
   header nav .container-fluid button .fa-solid {
     color: #c09c50;
   }
@@ -2761,8 +2790,12 @@ footer ul li a {
   .titulos {
     font-size: 30px;
   }
-  header nav .container-fluid a .logo {
-    height: 60px;
+  header nav .container-fluid {
+    flex-direction: row-reverse;
+  }
+  header nav .container-fluid #placeholder-nav {
+    height: 100%;
+    width: 40px;
   }
   header nav .container-fluid button .fa-solid {
     color: #c09c50;
@@ -3051,6 +3084,13 @@ footer ul li a {
   }
   .titulos {
     font-size: 30px;
+  }
+  header nav .container-fluid {
+    flex-direction: row-reverse;
+  }
+  header nav .container-fluid #placeholder-nav {
+    height: 100%;
+    width: 40px;
   }
   header nav .container-fluid a .logo {
     height: 40px;
@@ -3342,6 +3382,13 @@ footer ul li a {
   .animacion-social:hover {
     transform: none;
     transition: none;
+  }
+  header nav .container-fluid {
+    flex-direction: row-reverse;
+  }
+  header nav .container-fluid #placeholder-nav {
+    height: 100%;
+    width: 40px;
   }
   header nav .container-fluid a .logo {
     height: 40px;
