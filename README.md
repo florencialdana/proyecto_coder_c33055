@@ -33,13 +33,13 @@ El sitio cuenta con 5 (cinco) páginas:
 
 ## :page_facing_up: DETALLES DEL SITIO
 
-:heavy_check_mark: La estructura fue maquetada con Grid + Flexbox.
+:heavy_check_mark: La estructura fue maquetada con Grid + Flexbox
 
-:heavy_check_mark: Se aplicaron componentes de Bootstrap, como las barras de navegación y el formulario de contacto. 
+:heavy_check_mark: Se aplicaron componentes de Bootstrap, como las barras de navegación y el formulario de contacto
 
-:heavy_check_mark: Se implementaron animaciones y transiciones para una mejor navegación. 
+:heavy_check_mark: Se implementaron animaciones y transiciones para una mejor navegación 
 
-:heavy_check_mark: El sitio es totalmente responsive, adaptándose a vista móvil, tablet, notebook y escritorio.
+:heavy_check_mark: El sitio es totalmente responsive, adaptándose a vista móvil, tablet, notebook y escritorio
 
 :heavy_check_mark: SEO: Optimización de los motores de busqueda en todo el sitio, incluyendo Keywords, Meta Description y modificación del formato de las imágenes a WEBP<br />
 <br />
