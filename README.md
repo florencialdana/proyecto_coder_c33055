@@ -49,7 +49,7 @@ El sitio cuenta con 5 (cinco) páginas:
 
 El proveedor gratuito de hosting es **000webhost - Hostinger**.
 
-Para la subida de los archivos al host, se utilizó la herramienta **FileZilla**.
+Para la subida de los archivos al servidor, se utilizó la herramienta **FileZilla**.
 
 :sparkles: **INGRESAR AL SITIO** :sparkles:<br />
 <br />
