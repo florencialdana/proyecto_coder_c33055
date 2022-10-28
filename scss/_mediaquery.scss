@@ -2394,12 +2394,11 @@
     
         #content-area {
     
-            .parrafo-cuidados{
-    
-               p {
-                font-size: 18px;
-               }
-    
+            .parrafo-cuidados {
+                p {
+                    font-size: 18px;
+                }
+                
                 .video-cuidados{
                     padding: 0;
     
@@ -2459,6 +2458,23 @@
     
         .contenedor-contacto {
             padding-top: 20px;
+        }
+    }
+
+    // main - 404
+
+    .main-404 {
+        
+        div {
+            
+            h2 {
+                font-size: 21px;
+            }
+            
+            button {
+                padding: 10px 15px;
+                font-size: 12px;
+            }
         }
     }
     
@@ -2914,6 +2930,23 @@
             padding-top: 20px;
         }
     }
+
+    // main - 404
+
+    .main-404 {
+        
+        div {
+            
+            h2 {
+                font-size: 20px;
+            }
+            
+            button {
+                padding: 10px 15px;
+                font-size: 8px;
+            }
+        }
+    }
     
     // FOOTER
 
@@ -3352,6 +3385,23 @@
     
         .contenedor-contacto {
             padding-top: 20px;
+        }
+    }
+
+    // main - 404
+
+    .main-404 {
+
+        div {
+            
+            h2 {
+                font-size: 20px;
+            }
+            
+            button {
+                padding: 10px 15px;
+                font-size: 7px;
+            }
         }
     }
     
@@ -3800,6 +3850,23 @@
             padding-top: 20px;
         }
     }
+
+// main - 404
+
+.main-404 {
+
+    div {
+
+        h2 {
+            font-size: 15px;
+        }
+
+        button {
+            padding: 10px 15px;
+            font-size: 5px;
+        }
+    }
+}
     
     // FOOTER
 
@@ -4250,6 +4317,23 @@ header {
         .contact-form-wrapper {
             padding: 0;
             margin: 15px;
+        }
+    }
+}
+
+// main - 404
+
+.main-404 {
+
+    div {
+
+        h2 {
+        font-size: 15px;
+        }
+
+        button {
+            padding: 10px 15px;
+            font-size: 5px;
         }
     }
 }

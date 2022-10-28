@@ -690,3 +690,41 @@
         }
     }
 }
+
+// main - 404
+
+.main-404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        width: 34%;
+        padding-top: 10px ;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 25px;
+
+        h2 {
+        color: $vlore-dorado;
+        font-weight: 600;
+        text-align: center;
+        padding-bottom: 15px;
+        margin-bottom: 0;
+        font-size: 20px;
+        }
+
+        button {
+            background-color: $vlore-dorado;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            padding: 10px 15px;
+            font-size: 15px;
+        }
+    }
+}
