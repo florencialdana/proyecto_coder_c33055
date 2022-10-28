@@ -210,7 +210,12 @@
 
 .main-new-in {
 
-    .new-in-principal{
+    .subtitulo-new-in {
+        color: $vlore-dorado;
+        text-align: center;
+    }
+
+    .new-in-principal {
 
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -218,7 +223,7 @@
         margin: 20px;
         justify-items: center;
 
-        a{
+        a {
             text-decoration: none;
         }
 
@@ -229,7 +234,7 @@
             justify-content: center;
             margin: 15px;
 
-            p{
+            p {
                 text-align: left;
                 color:$vlore-dorado;
                 width: 100%;

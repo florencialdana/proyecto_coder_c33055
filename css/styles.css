@@ -324,6 +324,10 @@ header nav .container-fluid #navbarText .navbar-nav .nav-item #active {
   background-image: url(../assets/images/imagenes_banner/button_banner/button_next.png);
 }
 
+.main-new-in .subtitulo-new-in {
+  color: #c09c50;
+  text-align: center;
+}
 .main-new-in .new-in-principal {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
