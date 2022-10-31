@@ -335,9 +335,6 @@ header nav .container-fluid #navbarText .navbar-nav .nav-item #active {
   margin: 20px;
   justify-items: center;
 }
-.main-new-in .new-in-principal a {
-  text-decoration: none;
-}
 .main-new-in .new-in-principal .productos-new-in-page {
   display: flex;
   flex-direction: column;
@@ -819,6 +816,199 @@ header nav .container-fluid #navbarText .navbar-nav .nav-item #active {
   font-size: 15px;
 }
 
+.main-winter-sale .subtitulo-winter-sale {
+  color: #c09c50;
+  text-align: center;
+}
+.main-winter-sale .contenedor-winter-sale {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  margin: 20px;
+  justify-items: center;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 15px;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale p {
+  text-align: left;
+  color: #c09c50;
+  width: 100%;
+  font-weight: 600;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-1 {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_1.webp);
+  width: 480px;
+  height: 480px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.5s ease;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-1:hover {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_1_hover.webp);
+  transition: all 0.5s ease;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-2 {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_2.webp);
+  width: 480px;
+  height: 480px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.5s ease;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-2:hover {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_2_hover.webp);
+  transition: all 0.5s ease;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-3 {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_3.webp);
+  width: 480px;
+  height: 480px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.5s ease;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-3:hover {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_3_hover.webp);
+  transition: all 0.5s ease;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-4 {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_4.webp);
+  width: 480px;
+  height: 480px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.5s ease;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-4:hover {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_4_hover.webp);
+  transition: all 0.5s ease;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-5 {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_5.webp);
+  width: 480px;
+  height: 480px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.5s ease;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-5:hover {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_5_hover.webp);
+  transition: all 0.5s ease;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-6 {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_6.webp);
+  width: 480px;
+  height: 480px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.5s ease;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-6:hover {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_6_hover.webp);
+  transition: all 0.5s ease;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-7 {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_7.webp);
+  width: 480px;
+  height: 480px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.5s ease;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-7:hover {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_7_hover.webp);
+  transition: all 0.5s ease;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-8 {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_8.webp);
+  width: 480px;
+  height: 480px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.5s ease;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-8:hover {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_8_hover.webp);
+  transition: all 0.5s ease;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-9 {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_9.webp);
+  width: 480px;
+  height: 480px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.5s ease;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-9:hover {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_9_hover.webp);
+  transition: all 0.5s ease;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-10 {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_10.webp);
+  width: 480px;
+  height: 480px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.5s ease;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-10:hover {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_10_hover.webp);
+  transition: all 0.5s ease;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-11 {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_11.webp);
+  width: 480px;
+  height: 480px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.5s ease;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-11:hover {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_11_hover.webp);
+  transition: all 0.5s ease;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-12 {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_12.webp);
+  width: 480px;
+  height: 480px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.5s ease;
+}
+.main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-12:hover {
+  background-image: url(../assets/images/imagenes_winter_sale/foto_sale_12_hover.webp);
+  transition: all 0.5s ease;
+}
+
 footer {
   background-color: #905b4c;
   grid-area: footer;
@@ -977,6 +1167,55 @@ footer ul li a {
     width: 420px;
   }
   .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-12 {
+    height: 420px;
+    width: 420px;
+  }
+  /* main - winter sale */
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-1 {
+    height: 420px;
+    width: 420px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-2 {
+    height: 420px;
+    width: 420px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-3 {
+    height: 420px;
+    width: 420px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-4 {
+    height: 420px;
+    width: 420px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-5 {
+    height: 420px;
+    width: 420px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-6 {
+    height: 420px;
+    width: 420px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-7 {
+    height: 420px;
+    width: 420px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-8 {
+    height: 420px;
+    width: 420px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-9 {
+    height: 420px;
+    width: 420px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-10 {
+    height: 420px;
+    width: 420px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-11 {
+    height: 420px;
+    width: 420px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-12 {
     height: 420px;
     width: 420px;
   }
@@ -1246,6 +1485,110 @@ footer ul li a {
   }
   .main-contenedor-contacto .contenedor-contacto {
     padding-top: 20px;
+  }
+  .main-winter-sale .contenedor-winter-sale {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale p {
+    font-size: 22px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-1 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-1:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_1.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-2 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-2:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_2.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-3 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-3:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_3.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-4 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-4:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_4.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-5 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-5:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_5.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-6 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-6:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_6.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-7 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-7:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_7.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-8 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-8:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_8.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-9 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-9:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_9.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-10 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-10:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_10.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-11 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-11:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_11.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-12 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-12:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_12.webp);
+    transition: none;
   }
   footer {
     flex-direction: column;
@@ -1558,6 +1901,110 @@ footer ul li a {
   .main-contenedor-contacto .contenedor-contacto {
     padding-top: 20px;
   }
+  .main-winter-sale .contenedor-winter-sale {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale p {
+    font-size: 22px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-1 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-1:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_1.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-2 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-2:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_2.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-3 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-3:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_3.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-4 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-4:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_4.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-5 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-5:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_5.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-6 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-6:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_6.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-7 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-7:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_7.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-8 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-8:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_8.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-9 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-9:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_9.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-10 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-10:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_10.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-11 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-11:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_11.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-12 {
+    height: 460px;
+    width: 460px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-12:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_12.webp);
+    transition: none;
+  }
   footer {
     flex-direction: column;
   }
@@ -1859,6 +2306,110 @@ footer ul li a {
   }
   .main-contenedor-contacto .contenedor-contacto {
     padding-top: 20px;
+  }
+  .main-winter-sale .contenedor-winter-sale {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale p {
+    font-size: 22px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-1 {
+    height: 400px;
+    width: 400px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-1:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_1.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-2 {
+    height: 400px;
+    width: 400px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-2:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_2.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-3 {
+    height: 400px;
+    width: 400px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-3:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_3.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-4 {
+    height: 400px;
+    width: 400px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-4:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_4.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-5 {
+    height: 400px;
+    width: 400px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-5:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_5.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-6 {
+    height: 400px;
+    width: 400px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-6:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_6.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-7 {
+    height: 400px;
+    width: 400px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-7:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_7.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-8 {
+    height: 400px;
+    width: 400px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-8:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_8.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-9 {
+    height: 400px;
+    width: 400px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-9:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_9.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-10 {
+    height: 400px;
+    width: 400px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-10:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_10.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-11 {
+    height: 400px;
+    width: 400px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-11:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_11.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-12 {
+    height: 400px;
+    width: 400px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-12:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_12.webp);
+    transition: none;
   }
   footer {
     flex-direction: column;
@@ -2164,6 +2715,107 @@ footer ul li a {
   }
   .main-contenedor-contacto .contenedor-contacto {
     padding-top: 20px;
+  }
+  .main-winter-sale .contenedor-winter-sale {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-1 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-1:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_1.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-2 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-2:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_2.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-3 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-3:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_3.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-4 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-4:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_4.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-5 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-5:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_5.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-6 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-6:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_6.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-7 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-7:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_7.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-8 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-8:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_8.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-9 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-9:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_9.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-10 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-10:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_10.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-11 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-11:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_11.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-12 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-12:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_12.webp);
+    transition: none;
   }
   footer {
     flex-direction: column;
@@ -2480,6 +3132,110 @@ footer ul li a {
     padding: 10px 15px;
     font-size: 12px;
   }
+  .main-winter-sale .contenedor-winter-sale {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale p {
+    font-size: 22px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-1 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-1:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_1.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-2 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-2:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_2.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-3 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-3:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_3.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-4 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-4:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_4.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-5 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-5:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_5.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-6 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-6:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_6.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-7 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-7:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_7.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-8 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-8:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_8.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-9 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-9:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_9.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-10 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-10:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_10.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-11 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-11:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_11.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-12 {
+    width: 350px;
+    height: 350px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-12:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_12.webp);
+    transition: none;
+  }
   footer {
     flex-direction: column;
   }
@@ -2783,6 +3539,110 @@ footer ul li a {
     padding: 10px 15px;
     font-size: 8px;
   }
+  .main-winter-sale .contenedor-winter-sale {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale p {
+    font-size: 22px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-1 {
+    width: 290px;
+    height: 290px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-1:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_1.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-2 {
+    width: 290px;
+    height: 290px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-2:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_2.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-3 {
+    width: 290px;
+    height: 290px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-3:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_3.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-4 {
+    width: 290px;
+    height: 290px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-4:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_4.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-5 {
+    width: 290px;
+    height: 290px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-5:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_5.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-6 {
+    width: 290px;
+    height: 290px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-6:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_6.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-7 {
+    width: 290px;
+    height: 290px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-7:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_7.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-8 {
+    width: 290px;
+    height: 290px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-8:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_8.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-9 {
+    width: 290px;
+    height: 290px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-9:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_9.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-10 {
+    width: 290px;
+    height: 290px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-10:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_10.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-11 {
+    width: 290px;
+    height: 290px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-11:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_11.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-12 {
+    width: 290px;
+    height: 290px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-12:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_12.webp);
+    transition: none;
+  }
   footer {
     flex-direction: column;
   }
@@ -2941,99 +3801,99 @@ footer ul li a {
   .main-new-in .new-in-principal .productos-new-in-page p {
     font-size: 18px;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-1 {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-1 {
     width: 220px;
     height: 220px;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-1:hover {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-1:hover {
     background-image: url(../assets/images/imagenes_new_in/foto_1.webp);
     transition: none;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-2 {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-2 {
     width: 220px;
     height: 220px;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-2:hover {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-2:hover {
     background-image: url(../assets/images/imagenes_new_in/foto_2.webp);
     transition: none;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-3 {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-3 {
     width: 220px;
     height: 220px;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-3:hover {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-3:hover {
     background-image: url(../assets/images/imagenes_new_in/foto_3.webp);
     transition: none;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-4 {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-4 {
     width: 220px;
     height: 220px;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-4:hover {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-4:hover {
     background-image: url(../assets/images/imagenes_new_in/foto_4.webp);
     transition: none;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-5 {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-5 {
     width: 220px;
     height: 220px;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-5:hover {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-5:hover {
     background-image: url(../assets/images/imagenes_new_in/foto_5.webp);
     transition: none;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-6 {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-6 {
     width: 220px;
     height: 220px;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-6:hover {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-6:hover {
     background-image: url(../assets/images/imagenes_new_in/foto_6.webp);
     transition: none;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-7 {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-7 {
     width: 220px;
     height: 220px;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-7:hover {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-7:hover {
     background-image: url(../assets/images/imagenes_new_in/foto_7.webp);
     transition: none;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-8 {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-8 {
     width: 220px;
     height: 220px;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-8:hover {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-8:hover {
     background-image: url(../assets/images/imagenes_new_in/foto_8.webp);
     transition: none;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-9 {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-9 {
     width: 220px;
     height: 220px;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-9:hover {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-9:hover {
     background-image: url(../assets/images/imagenes_new_in/foto_9.webp);
     transition: none;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-10 {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-10 {
     width: 220px;
     height: 220px;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-10:hover {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-10:hover {
     background-image: url(../assets/images/imagenes_new_in/foto_10.webp);
     transition: none;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-11 {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-11 {
     width: 220px;
     height: 220px;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-11:hover {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-11:hover {
     background-image: url(../assets/images/imagenes_new_in/foto_11.webp);
     transition: none;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-12 {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-12 {
     width: 220px;
     height: 220px;
   }
-  .main-new-in .new-in-principal .productos-new-in-page .card-new-in-principal-12:hover {
+  .main-new-in .new-in-principal .productos-new-in-page .card-winter-sale-12:hover {
     background-image: url(../assets/images/imagenes_new_in/foto_12.webp);
     transition: none;
   }
@@ -3084,6 +3944,110 @@ footer ul li a {
   .main-404 div button {
     padding: 10px 15px;
     font-size: 7px;
+  }
+  .main-winter-sale .contenedor-winter-sale {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale p {
+    font-size: 18px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-1 {
+    width: 220px;
+    height: 220px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-1:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_1.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-2 {
+    width: 220px;
+    height: 220px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-2:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_2.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-3 {
+    width: 220px;
+    height: 220px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-3:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_3.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-4 {
+    width: 220px;
+    height: 220px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-4:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_4.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-5 {
+    width: 220px;
+    height: 220px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-5:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_5.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-6 {
+    width: 220px;
+    height: 220px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-6:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_6.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-7 {
+    width: 220px;
+    height: 220px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-7:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_7.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-8 {
+    width: 220px;
+    height: 220px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-8:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_8.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-9 {
+    width: 220px;
+    height: 220px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-9:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_9.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-10 {
+    width: 220px;
+    height: 220px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-10:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_10.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-11 {
+    width: 220px;
+    height: 220px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-11:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_11.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-12 {
+    width: 220px;
+    height: 220px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-new-in-principal-12:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_12.webp);
+    transition: none;
   }
   footer {
     flex-direction: column;
@@ -3390,6 +4354,110 @@ footer ul li a {
     padding: 10px 15px;
     font-size: 5px;
   }
+  .main-winter-sale .contenedor-winter-sale {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale p {
+    font-size: 14px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-1 {
+    width: 170px;
+    height: 170px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-1:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_1.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-2 {
+    width: 170px;
+    height: 170px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-2:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_2.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-3 {
+    width: 170px;
+    height: 170px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-3:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_3.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-4 {
+    width: 170px;
+    height: 170px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-4:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_4.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-5 {
+    width: 170px;
+    height: 170px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-5:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_5.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-6 {
+    width: 170px;
+    height: 170px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-6:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_6.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-7 {
+    width: 170px;
+    height: 170px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-7:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_7.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-8 {
+    width: 170px;
+    height: 170px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-8:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_8.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-9 {
+    width: 170px;
+    height: 170px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-9:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_9.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-10 {
+    width: 170px;
+    height: 170px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-10:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_10.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-11 {
+    width: 170px;
+    height: 170px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-11:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_11.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-12 {
+    width: 170px;
+    height: 170px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-12:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_12.webp);
+    transition: none;
+  }
   footer {
     flex-direction: column;
   }
@@ -3691,6 +4759,110 @@ footer ul li a {
   .main-404 div button {
     padding: 10px 15px;
     font-size: 5px;
+  }
+  .main-winter-sale .contenedor-winter-sale {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale p {
+    font-size: 14px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-1 {
+    width: 150px;
+    height: 150px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-1:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_1.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-2 {
+    width: 150px;
+    height: 150px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-2:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_2.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-3 {
+    width: 150px;
+    height: 150px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-3:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_3.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-4 {
+    width: 150px;
+    height: 150px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-4:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_4.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-5 {
+    width: 150px;
+    height: 150px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-5:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_5.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-6 {
+    width: 150px;
+    height: 150px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-6:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_6.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-7 {
+    width: 150px;
+    height: 150px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-7:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_7.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-8 {
+    width: 150px;
+    height: 150px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-8:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_8.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-9 {
+    width: 150px;
+    height: 150px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-9:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_9.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-10 {
+    width: 150px;
+    height: 150px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-10:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_10.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-11 {
+    width: 150px;
+    height: 150px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-11:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_11.webp);
+    transition: none;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-12 {
+    width: 150px;
+    height: 150px;
+  }
+  .main-winter-sale .contenedor-winter-sale .productos-winter-sale .card-winter-sale-12:hover {
+    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_12.webp);
+    transition: none;
   }
   footer {
     flex-direction: column;

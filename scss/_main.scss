@@ -223,10 +223,6 @@
         margin: 20px;
         justify-items: center;
 
-        a {
-            text-decoration: none;
-        }
-
         .productos-new-in-page {
             display: flex;
             flex-direction: column;
@@ -729,6 +725,138 @@
             color: white;
             padding: 10px 15px;
             font-size: 15px;
+        }
+    }
+}
+
+
+// main - pagina winter sale
+
+.main-winter-sale {
+
+    .subtitulo-winter-sale {
+        color: $vlore-dorado;
+        text-align: center;
+    }
+
+    .contenedor-winter-sale {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin: 20px;
+        justify-items: center;
+
+        .productos-winter-sale {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            margin: 15px;
+
+            p {
+                text-align: left;
+                color:$vlore-dorado;
+                width: 100%;
+                font-weight: 600;
+            }
+
+            .card-winter-sale-1 {
+                background-image: url(../assets/images/imagenes_winter_sale/foto_sale_1.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_1_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
+            .card-winter-sale-2 {
+                background-image: url(../assets/images/imagenes_winter_sale/foto_sale_2.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_2_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
+            .card-winter-sale-3 {
+                background-image: url(../assets/images/imagenes_winter_sale/foto_sale_3.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_3_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
+            .card-winter-sale-4 {
+                background-image: url(../assets/images/imagenes_winter_sale/foto_sale_4.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_4_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
+            .card-winter-sale-5 {
+                background-image: url(../assets/images/imagenes_winter_sale/foto_sale_5.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_5_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
+            .card-winter-sale-6 {
+                background-image: url(../assets/images/imagenes_winter_sale/foto_sale_6.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_6_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
+            .card-winter-sale-7 {
+                background-image: url(../assets/images/imagenes_winter_sale/foto_sale_7.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_7_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
+            .card-winter-sale-8 {
+                background-image: url(../assets/images/imagenes_winter_sale/foto_sale_8.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_8_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
+            .card-winter-sale-9 {
+                background-image: url(../assets/images/imagenes_winter_sale/foto_sale_9.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_9_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
+            .card-winter-sale-10 {
+                background-image: url(../assets/images/imagenes_winter_sale/foto_sale_10.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_10_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
+            .card-winter-sale-11 {
+                background-image: url(../assets/images/imagenes_winter_sale/foto_sale_11.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_11_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
+            .card-winter-sale-12 {
+                background-image: url(../assets/images/imagenes_winter_sale/foto_sale_12.webp);
+                @include card-new-in-principal-mixin;
+                &:hover{
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_12_hover.webp);
+                    transition: $vlore-transition;
+                }
+            }
         }
     }
 }

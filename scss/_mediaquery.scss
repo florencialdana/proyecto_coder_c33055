@@ -115,6 +115,66 @@
             }
         }
     }
+
+    /* main - winter sale */
+
+    .main-winter-sale {
+
+        .contenedor-winter-sale{
+    
+            .productos-winter-sale {
+    
+                .card-winter-sale-1 {
+                    height: 420px;
+                    width: 420px;
+                }
+                .card-winter-sale-2 {
+                    height: 420px;
+                    width: 420px;
+                }
+                .card-winter-sale-3 {
+                    height: 420px;
+                    width: 420px;
+                }
+                .card-winter-sale-4 {
+                    height: 420px;
+                    width: 420px;
+                }
+                .card-winter-sale-5 {
+                    height: 420px;
+                    width: 420px;
+                }
+                .card-winter-sale-6 {
+                    height: 420px;
+                    width: 420px;
+                }
+                .card-winter-sale-7 {
+                    height: 420px;
+                    width: 420px;
+                }
+                .card-winter-sale-8 {
+                    height: 420px;
+                    width: 420px;
+                }
+                .card-winter-sale-9 {
+                    height: 420px;
+                    width: 420px;
+                }
+                .card-winter-sale-10 {
+                    height: 420px;
+                    width: 420px;
+                }
+                .card-winter-sale-11 {
+                    height: 420px;
+                    width: 420px;
+                }
+                .card-winter-sale-12 {
+                    height: 420px;
+                    width: 420px;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width:1199px) {
@@ -538,6 +598,135 @@
             padding-top: 20px;
         }
     }
+
+    // main - pagina winter sale
+
+    .main-winter-sale {
+    
+            .contenedor-winter-sale {
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+                margin: 0;
+        
+                .productos-winter-sale {
+        
+                    p {
+                        font-size: 22px;
+                    }
+        
+                    .card-winter-sale-1 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_1.webp);
+                            transition: none;
+                        }
+                    }
+    
+                    .card-winter-sale-2 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_2.webp);
+                            transition: none;
+                        }
+                    }
+    
+                    .card-winter-sale-3 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_3.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-4 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_4.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-5 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_5.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-6 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_6.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-7 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_7.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-8 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_8.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-9 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_9.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-10 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_10.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-11 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_11.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-12 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_12.webp);
+                            transition: none;
+                        }
+                    }
+                }
+            }
+        }
     
     // FOOTER
     
@@ -1038,6 +1227,135 @@
             }
         }
         
+        // main - pagina winter sale
+
+        .main-winter-sale {
+        
+            .contenedor-winter-sale {
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+                margin: 0;
+        
+                .productos-winter-sale {
+        
+                    p {
+                        font-size: 22px;
+                    }
+        
+                    .card-winter-sale-1 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_1.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-2 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_2.webp);
+                            transition: none;
+                        }
+                    }
+    
+                    .card-winter-sale-3 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_3.webp);
+                            transition: none;
+                        }
+                    }
+
+                    .card-winter-sale-4 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_4.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-5 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_5.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-6 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_6.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-7 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_7.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-8 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_8.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-9 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_9.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-10 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_10.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-11 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_11.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-12 {
+                        height: 460px;
+                        width: 460px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_12.webp);
+                            transition: none;
+                        }
+                    }
+                }
+            }
+        }
+
         // FOOTER
 
         footer {
@@ -1502,6 +1820,134 @@
             padding-top: 20px;
         }
     }
+
+        // main - pagina winter sale
+
+        .main-winter-sale {
+    
+            .contenedor-winter-sale {
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+                margin: 0;
+        
+                .productos-winter-sale {
+        
+                    p{
+                        font-size: 22px;
+                    }
+        
+                    .card-winter-sale-1 {
+                        height: 400px;
+                        width: 400px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_1.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-2 {
+                        height: 400px;
+                        width: 400px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_2.webp);
+                            transition: none;
+                        }
+                    }
+    
+                    .card-winter-sale-3 {
+                        height: 400px;
+                        width: 400px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_3.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-4 {
+                        height: 400px;
+                        width: 400px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_4.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-5 {
+                        height: 400px;
+                        width: 400px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_5.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-6 {
+                        height: 400px;
+                        width: 400px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_6.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-7 {
+                        height: 400px;
+                        width: 400px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_7.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-8 {
+                        height: 400px;
+                        width: 400px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_8.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-9 {
+                        height: 400px;
+                        width: 400px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_9.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-10 {
+                        height: 400px;
+                        width: 400px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_10.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-11 {
+                        height: 400px;
+                        width: 400px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_11.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-12 {
+                        height: 400px;
+                        width: 400px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_12.webp);
+                            transition: none;
+                        }
+                    }
+                }
+            }
+        }
     
     // FOOTER
 
@@ -1978,6 +2424,129 @@
             padding-top: 20px;
         }
     }
+
+        // main - pagina winter sale
+
+        .main-winter-sale {
+    
+            .contenedor-winter-sale {
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+                margin: 0;
+    
+                .productos-winter-sale {
+        
+                    .card-winter-sale-1 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_1.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-2 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_2.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-3 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_3.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-4 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_4.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-5 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_5.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-6 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_6.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-7 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_7.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-8 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_8.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-9 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_9.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-10 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_10.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-11 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_11.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-12 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_12.webp);
+                            transition: none;
+                        }
+                    }
+                }
+            }
+        }
     
     // FOOTER
 
@@ -2477,6 +3046,133 @@
             }
         }
     }
+
+        // main - pagina winter sale
+
+        .main-winter-sale {
+    
+            .contenedor-winter-sale {
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+                margin: 0;
+        
+                .productos-winter-sale {
+        
+                    p {
+                        font-size: 22px;
+                    }
+        
+                    .card-winter-sale-1 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_1.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-2 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_2.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-3 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_3.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-4 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_4.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-5 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_5.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-6 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_6.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-7 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_7.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-8 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_8.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-9 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_9.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-10 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_10.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-11 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_11.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-12 {
+                        width: 350px;
+                        height: 350px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_12.webp);
+                            transition: none;
+                        }
+                    }
+                }
+            }
+        }
     
     // FOOTER
 
@@ -2947,7 +3643,134 @@
             }
         }
     }
+
+        // main - pagina winter sale
+
+        .main-winter-sale {
     
+            .contenedor-winter-sale {
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+                margin: 0;
+        
+                .productos-winter-sale {
+        
+                    p {
+                        font-size: 22px;
+                    }
+        
+                    .card-winter-sale-1 {
+                        width: 290px;
+                        height: 290px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_1.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-2 {
+                        width: 290px;
+                        height: 290px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_2.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-3 {
+                        width: 290px;
+                        height: 290px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_3.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-4 {
+                        width: 290px;
+                        height: 290px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_4.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-5 {
+                        width: 290px;
+                        height: 290px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_5.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-6 {
+                        width: 290px;
+                        height: 290px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_6.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-7 {
+                        width: 290px;
+                        height: 290px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_7.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-8 {
+                        width: 290px;
+                        height: 290px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_8.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-9 {
+                        width: 290px;
+                        height: 290px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_9.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-10 {
+                        width: 290px;
+                        height: 290px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_10.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-11 {
+                        width: 290px;
+                        height: 290px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_11.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-winter-sale-12 {
+                        width: 290px;
+                        height: 290px;
+    
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_12.webp);
+                            transition: none;
+                        }
+                    }
+                }
+            }
+        }
+
     // FOOTER
 
     footer {
@@ -3212,7 +4035,7 @@
                     font-size: 18px;
                 }
     
-                .card-new-in-principal-1 {
+                .card-winter-sale-1 {
                     width: 220px;
                     height: 220px;
                     &:hover {
@@ -3220,7 +4043,7 @@
                         transition: none;
                     }
                 }
-                .card-new-in-principal-2 {
+                .card-winter-sale-2 {
                     width: 220px;
                     height: 220px;
                     &:hover {
@@ -3228,7 +4051,7 @@
                         transition: none;
                     }
                 }
-                .card-new-in-principal-3 {
+                .card-winter-sale-3 {
                     width: 220px;
                     height: 220px;
                     &:hover {
@@ -3236,7 +4059,7 @@
                         transition: none;
                     }
                 }
-                .card-new-in-principal-4 {
+                .card-winter-sale-4 {
                     width: 220px;
                     height: 220px;
                     &:hover {
@@ -3244,7 +4067,7 @@
                         transition: none;
                     }
                 }
-                .card-new-in-principal-5 {
+                .card-winter-sale-5 {
                     width: 220px;
                     height: 220px;
                     &:hover {
@@ -3252,7 +4075,7 @@
                         transition: none;
                     }
                 }
-                .card-new-in-principal-6 {
+                .card-winter-sale-6 {
                     width: 220px;
                     height: 220px;
                     &:hover {
@@ -3260,7 +4083,7 @@
                         transition: none;
                     }
                 }
-                .card-new-in-principal-7 {
+                .card-winter-sale-7 {
                     width: 220px;
                     height: 220px;
                     &:hover {
@@ -3268,7 +4091,7 @@
                         transition: none;
                     }
                 }
-                .card-new-in-principal-8 {
+                .card-winter-sale-8 {
                     width: 220px;
                     height: 220px;
                     &:hover {
@@ -3276,7 +4099,7 @@
                         transition: none;
                     }
                 }
-                .card-new-in-principal-9 {
+                .card-winter-sale-9 {
                     width: 220px;
                     height: 220px;
                     &:hover {
@@ -3284,7 +4107,7 @@
                         transition: none;
                     }
                 }
-                .card-new-in-principal-10 {
+                .card-winter-sale-10 {
                     width: 220px;
                     height: 220px;
                     &:hover {
@@ -3292,7 +4115,7 @@
                         transition: none;
                     }
                 }
-                .card-new-in-principal-11 {
+                .card-winter-sale-11 {
                     width: 220px;
                     height: 220px;
                     &:hover {
@@ -3300,7 +4123,7 @@
                         transition: none;
                     }
                 }
-                .card-new-in-principal-12 {
+                .card-winter-sale-12 {
                     width: 220px;
                     height: 220px;
                     &:hover {
@@ -3404,6 +4227,121 @@
             }
         }
     }
+
+        // main - winter sale
+
+        .main-winter-sale {
+    
+            .contenedor-winter-sale {
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+                margin: 0;
+        
+                .productos-winter-sale {
+        
+                    p{
+                        font-size: 18px;
+                    }
+        
+                    .card-new-in-principal-1 {
+                        width: 220px;
+                        height: 220px;
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_1.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-new-in-principal-2 {
+                        width: 220px;
+                        height: 220px;
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_2.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-new-in-principal-3 {
+                        width: 220px;
+                        height: 220px;
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_3.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-new-in-principal-4 {
+                        width: 220px;
+                        height: 220px;
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_4.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-new-in-principal-5 {
+                        width: 220px;
+                        height: 220px;
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_5.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-new-in-principal-6 {
+                        width: 220px;
+                        height: 220px;
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_6.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-new-in-principal-7 {
+                        width: 220px;
+                        height: 220px;
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_7.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-new-in-principal-8 {
+                        width: 220px;
+                        height: 220px;
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_8.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-new-in-principal-9 {
+                        width: 220px;
+                        height: 220px;
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_9.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-new-in-principal-10 {
+                        width: 220px;
+                        height: 220px;
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_10.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-new-in-principal-11 {
+                        width: 220px;
+                        height: 220px;
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_11.webp);
+                            transition: none;
+                        }
+                    }
+                    .card-new-in-principal-12 {
+                        width: 220px;
+                        height: 220px;
+                        &:hover {
+                            background-image: url(../assets/images/imagenes_winter_sale/foto_sale_12.webp);
+                            transition: none;
+                        }
+                    }
+                }
+            }
+        }
     
     // FOOTER
 
@@ -3864,6 +4802,121 @@
         button {
             padding: 10px 15px;
             font-size: 5px;
+        }
+    }
+}
+
+// main - pagina winter sale
+
+.main-winter-sale {
+    
+    .contenedor-winter-sale {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin: 0;
+
+        .productos-winter-sale {
+
+            p {
+                font-size: 14px;
+            }
+
+            .card-winter-sale-1 {
+                width: 170px;
+                height: 170px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_1.webp);
+                    transition: none;
+                }
+            }
+            .card-winter-sale-2 {
+                width: 170px;
+                height: 170px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_2.webp);
+                    transition: none;
+                }
+            }
+            .card-winter-sale-3 {
+                width: 170px;
+                height: 170px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_3.webp);
+                    transition: none;
+                }
+            }
+            .card-winter-sale-4 {
+                width: 170px;
+                height: 170px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_4.webp);
+                    transition: none;
+                }
+            }
+            .card-winter-sale-5 {
+                width: 170px;
+                height: 170px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_5.webp);
+                    transition: none;
+                }
+            }
+            .card-winter-sale-6 {
+                width: 170px;
+                height: 170px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_6.webp);
+                    transition: none;
+                }
+            }
+            .card-winter-sale-7 {
+                width: 170px;
+                height: 170px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_7.webp);
+                    transition: none;
+                }
+            }
+            .card-winter-sale-8 {
+                width: 170px;
+                height: 170px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_8.webp);
+                    transition: none;
+                }
+            }
+            .card-winter-sale-9 {
+                width: 170px;
+                height: 170px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_9.webp);
+                    transition: none;
+                }
+            }
+            .card-winter-sale-10 {
+                width: 170px;
+                height: 170px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_10.webp);
+                    transition: none;
+                }
+            }
+            .card-winter-sale-11 {
+                width: 170px;
+                height: 170px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_11.webp);
+                    transition: none;
+                }
+            }
+            .card-winter-sale-12 {
+                width: 170px;
+                height: 170px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_12.webp);
+                    transition: none;
+                }
+            }
         }
     }
 }
@@ -4334,6 +5387,121 @@ header {
         button {
             padding: 10px 15px;
             font-size: 5px;
+        }
+    }
+}
+
+// main - pagina winter sale
+
+.main-winter-sale {
+
+    .contenedor-winter-sale {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr;
+        margin: 0;
+
+        .productos-winter-sale {
+
+            p {
+                font-size: 14px;
+            }
+
+            .card-winter-sale-1 {
+                width: 150px;
+                height: 150px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_1.webp);
+                    transition: none;
+                }
+            }
+            .card-winter-sale-2 {
+                width: 150px;
+                height: 150px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_2.webp);
+                    transition: none;
+                }
+            }
+            .card-winter-sale-3 {
+                width: 150px;
+                height: 150px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_3.webp);
+                    transition: none;
+                }
+            }
+            .card-winter-sale-4 {
+                width: 150px;
+                height: 150px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_4.webp);
+                    transition: none;
+                }
+            }
+            .card-winter-sale-5 {
+                width: 150px;
+                height: 150px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_5.webp);
+                    transition: none;
+                }
+            }
+            .card-winter-sale-6 {
+                width: 150px;
+                height: 150px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_6.webp);
+                    transition: none;
+                }
+            }
+            .card-winter-sale-7 {
+                width: 150px;
+                height: 150px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_7.webp);
+                    transition: none;
+                }
+            }
+            .card-winter-sale-8 {
+                width: 150px;
+                height: 150px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_8.webp);
+                    transition: none;
+                }
+            }
+            .card-winter-sale-9 {
+                width: 150px;
+                height: 150px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_9.webp);
+                    transition: none;
+                }
+            }
+            .card-winter-sale-10 {
+                width: 150px;
+                height: 150px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_10.webp);
+                    transition: none;
+                }
+            }
+            .card-winter-sale-11 {
+                width: 150px;
+                height: 150px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_11.webp);
+                    transition: none;
+                }
+            }
+            .card-winter-sale-12 {
+                width: 150px;
+                height: 150px;
+                &:hover {
+                    background-image: url(../assets/images/imagenes_winter_sale/foto_sale_12.webp);
+                    transition: none;
+                }
+            }
         }
     }
 }
