@@ -10,13 +10,15 @@
 
 El sitio cuenta con 5 (cinco) páginas:
 
-- Contacto
+- [New In](https://florenciavendittoc33055.000webhostapp.com/pages/new-in.html)
 
-- Cuidados
+- [Cuidados](https://florenciavendittoc33055.000webhostapp.com/pages/cuidados.html)
 
-- New In
+- [Pick-Up Points](https://florenciavendittoc33055.000webhostapp.com/pages/pick-up-points.html)
 
-- Pick-Up Points<br />
+- [Contact Us](https://florenciavendittoc33055.000webhostapp.com/pages/contacto.html)
+
+- [Winter Sale](https://florenciavendittoc33055.000webhostapp.com/pages/winter-sale.html)<br />
 <br />
 
 
@@ -51,7 +53,7 @@ El proveedor gratuito de hosting es **000webhost - Hostinger**.
 
 Para la subida de los archivos al servidor, se utilizó la herramienta **FileZilla**.
 
-:sparkles: **INGRESAR AL SITIO** :sparkles:<br />
+:sparkles: [**INGRESAR AL SITIO**](https://florenciavendittoc33055.000webhostapp.com/) :sparkles:<br />
 <br />
 <br />
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
