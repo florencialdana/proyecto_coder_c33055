@@ -47,7 +47,7 @@
                             <a href="/pages/cuidados.html" class="nav-link">CUIDADOS</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">PICK-UP POINTS</a>
+                            <a href="/pages/pick-up-points.html" class="nav-link">PICK-UP POINTS</a>
                         </li>
                         <li class="nav-item">
                             <a href="/pages/contacto.html" class="nav-link">CONTACT US</a>
