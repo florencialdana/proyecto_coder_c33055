@@ -8,7 +8,7 @@
 
 ## :computer: SOBRE EL PROYECTO
 
-El sitio cuenta con 5 (cinco) páginas:
+El sitio cuenta con 6 (seis) páginas:
 
 - [New In](https://florenciavendittoc33055.000webhostapp.com/pages/new-in.html)
 
