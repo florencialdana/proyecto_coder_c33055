@@ -43,7 +43,9 @@ El sitio cuenta con 6 (seis) páginas:
 
 :heavy_check_mark: El sitio es totalmente responsive, adaptándose a vista móvil, tablet, notebook y escritorio
 
-:heavy_check_mark: SEO: Optimización de los motores de busqueda en todo el sitio, incluyendo Keywords, Meta Description y modificación del formato de las imágenes a WEBP<br />
+:heavy_check_mark: SEO: Optimización de los motores de busqueda en todo el sitio, incluyendo Keywords, Meta Description y modificación del formato de las imágenes de contenido propio a WEBP
+
+:heavy_check_mark: Página de "404 NOT FOUND" personalizada<br />
 <br />
 
 
